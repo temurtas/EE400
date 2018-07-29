@@ -1,0 +1,12 @@
+\select@language {english}
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Description of the Company}{2}
+\contentsline {subsection}{\numberline {2.1}Company Name}{2}
+\contentsline {subsection}{\numberline {2.2}Company Location}{2}
+\contentsline {subsubsection}{\numberline {2.2.1}Macunk\IeC {\"o}y Facilities}{2}
+\contentsline {subsection}{\numberline {2.3}General Description of the Company}{2}
+\contentsline {subsection}{\numberline {2.4}The Organizational Chart of the Company}{3}
+\contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{3}
+\contentsline {section}{\numberline {3}Conclusion}{9}
+\contentsline {section}{\numberline {4}References}{9}
