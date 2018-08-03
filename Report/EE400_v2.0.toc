@@ -8,5 +8,5 @@
 \contentsline {subsection}{\numberline {2.3}General Description of the Company}{2}
 \contentsline {subsection}{\numberline {2.4}The Organizational Chart of the Company}{3}
 \contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{4}
-\contentsline {section}{\numberline {3}Conclusion}{12}
-\contentsline {section}{\numberline {4}References}{13}
+\contentsline {section}{\numberline {3}Conclusion}{8}
+\contentsline {section}{\numberline {4}References}{8}
