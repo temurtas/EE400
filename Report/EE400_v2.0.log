@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  3 AUG 2018 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  6 AUG 2018 22:52
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -712,73 +712,81 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 231--239
+Underfull \hbox (badness 10000) in paragraph at lines 232--240
 
  []
 
 [2]
 
-LaTeX Warning: Reference `fig:orgc' on page 3 undefined on input line 259.
+LaTeX Warning: Reference `fig:orgc' on page 3 undefined on input line 260.
 
 <organizasyon.jpg, id=21, 1041.1397pt x 655.69969pt>
 File: organizasyon.jpg Graphic file (type jpg)
  <use organizasyon.jpg>
-Package pdftex.def Info: organizasyon.jpg used on input line 265.
+Package pdftex.def Info: organizasyon.jpg used on input line 266.
 (pdftex.def)             Requested size: 292.5pt x 184.21498pt.
 
 [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 274.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 275.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 275.
  [4 <./organizasyon.jpg>] [5] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs
 \uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (10.22662pt too wide) in paragraph at lines 351--352
+Overfull \hbox (10.22662pt too wide) in paragraph at lines 352--353
 []| \OT1/cmr/m/n/12 Turkey's first na-tional Air De-fense Sys-tem \Pedestal Mou
 nted Stinger
  []
 
 [6]
-Overfull \hbox (41.22896pt too wide) in paragraph at lines 355--356
+Overfull \hbox (41.22896pt too wide) in paragraph at lines 356--357
 \OT1/cmr/m/n/12 SAN has also won \ Year 2013 In-no-va-tive-ness Cre-ativ-ity Pr
 od-uct Award"among
  []
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+
+Overfull \hbox (11.4011pt too wide) in paragraph at lines 386--386
+[]\OT1/cmr/bx/n/14.4 Mechanical & Elec-tri-cal Tests of ULAK 4.5G Macro-
+ []
+
+[7] [8] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+)
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
 []\OT1/cmr/m/n/12 Raspberry Pi 2 & 3 Pin Map-pings,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
 \OT1/cmr/m/n/12 https://docs.microsoft.com/en-us/windows/iot-core/learn-about-
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 434--438
+Underfull \hbox (badness 2088) in paragraph at lines 467--471
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
-[8] (EE400_v2.0.aux)
+[9] [10] (EE400_v2.0.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  18975 strings out of 493333
  338116 string characters out of 3136576
- 415358 words of memory out of 3000000
+ 413896 words of memory out of 3000000
  22138 multiletter control sequences out of 15000+200000
  13705 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -789,9 +797,9 @@ C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.0.pdf (9 pages, 314203 bytes).
+Output written on EE400_v2.0.pdf (11 pages, 319048 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
