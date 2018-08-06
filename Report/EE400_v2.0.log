@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  6 AUG 2018 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  6 AUG 2018 23:09
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -749,57 +749,54 @@ Overfull \hbox (41.22896pt too wide) in paragraph at lines 356--357
 od-uct Award"among
  []
 
-
-Overfull \hbox (11.4011pt too wide) in paragraph at lines 386--386
+[7] [8]
+Overfull \hbox (11.4011pt too wide) in paragraph at lines 411--411
 []\OT1/cmr/bx/n/14.4 Mechanical & Elec-tri-cal Tests of ULAK 4.5G Macro-
  []
 
-[7] [8] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[9] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+) [10]
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
 []\OT1/cmr/m/n/12 Raspberry Pi 2 & 3 Pin Map-pings,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
 \OT1/cmr/m/n/12 https://docs.microsoft.com/en-us/windows/iot-core/learn-about-
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 467--471
+Underfull \hbox (badness 2088) in paragraph at lines 499--503
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
-[9] [10] (EE400_v2.0.aux)
+[11] (EE400_v2.0.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  18975 strings out of 493333
  338116 string characters out of 3136576
- 413896 words of memory out of 3000000
+ 414562 words of memory out of 3000000
  22138 multiletter control sequences out of 15000+200000
  13705 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,97p,664b,1706s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,97p,664b,2200s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.0.pdf (11 pages, 319048 bytes).
+Output written on EE400_v2.0.pdf (12 pages, 324106 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
