@@ -5,14 +5,14 @@
 \contentsline {subsection}{\numberline {2.1}Company Name}{3}
 \contentsline {subsection}{\numberline {2.2}Company Location}{3}
 \contentsline {subsubsection}{\numberline {2.2.1}Macunk\IeC {\"o}y Facilities}{3}
-\contentsline {subsection}{\numberline {2.3}General Description of the Company}{3}
-\contentsline {subsection}{\numberline {2.4}The Organizational Chart of the Company}{4}
-\contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{5}
+\contentsline {subsection}{\numberline {2.3}General Description of the Company}{4}
+\contentsline {subsection}{\numberline {2.4}The Organizational Chart of the Company}{5}
+\contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{6}
 \contentsline {section}{\numberline {3}Orientation and Mandatory Education}{8}
 \contentsline {subsection}{\numberline {3.1}Orientation}{8}
 \contentsline {subsection}{\numberline {3.2}Mandatory Education}{8}
 \contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{8}
-\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{9}
+\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{8}
 \contentsline {section}{\numberline {4}Work Done at SP Company}{9}
 \contentsline {subsection}{\numberline {4.1}Mechanical \& Electrical Tests of ASELSAN 9661 Radio Family }{9}
 \contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{9}
