@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  26 AUG 2018 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  27 AUG 2018 17:32
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -593,18 +593,18 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (EE400_v2.0.aux)
 \openout1 = `EE400_v2.0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -666,15 +666,15 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 124.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 124
+LaTeX Info: Redefining \celsius on input line 137.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 137
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 124.
-Package gensymb Info: Using \Omega for \ohm on input line 124.
+LaTeX Info: Redefining \ohm on input line 137.
+Package gensymb Info: Using \Omega for \ohm on input line 137.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -685,7 +685,7 @@ Package caption Info: End \AtBeginDocument code.
 <odtuee.png, id=4, 648.4225pt x 354.32375pt>
 File: odtuee.png Graphic file (type png)
  <use odtuee.png>
-Package pdftex.def Info: odtuee.png used on input line 135.
+Package pdftex.def Info: odtuee.png used on input line 148.
 (pdftex.def)             Requested size: 194.52824pt x 106.29794pt.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-1.def"
@@ -694,98 +694,112 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 175.
+LaTeX Font Info:    Try loading font information for U+msa on input line 188.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 175.
+LaTeX Font Info:    Try loading font information for U+msb on input line 188.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./odtuee.png>] (EE400_v2.
-0.toc
-[1])
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./odtuee.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+(EE400_v2.0.toc [1] [2])
 \tf@toc=\write4
 \openout4 = `EE400_v2.0.toc'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 232--243
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 233--236
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--243
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--243
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 
  []
 
-[3] <organizasyon2.png, id=24, 566.86781pt x 720.44156pt>
-File: organizasyon2.png Graphic file (type png)
+[5] <organizasyon4.png, id=30, 3580.37625pt x 4411.48125pt>
+File: organizasyon4.png Graphic file (type png)
 
-<use organizasyon2.png>
-Package pdftex.def Info: organizasyon2.png used on input line 270.
-(pdftex.def)             Requested size: 350.99762pt x 446.0975pt.
- [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 279.
+<use organizasyon4.png>
+Package pdftex.def Info: organizasyon4.png used on input line 292.
+(pdftex.def)             Requested size: 350.99762pt x 432.42319pt.
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 302.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
- [5 <./organizasyon2.png>]
-Overfull \hbox (0.4919pt too wide) in paragraph at lines 306--309
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 302.
+ [7 <./organizasyon4.png>]
+Overfull \hbox (0.4919pt too wide) in paragraph at lines 329--332
 \OT1/cmr/m/n/12 Con-trol Sys-tem, MIL-SIS Elec-tronic War-fare and X-Band Satel
 -lite Com-
  []
 
-[6]
-Overfull \hbox (2.82095pt too wide) in paragraph at lines 317--321
+[8]
+Overfull \hbox (2.82095pt too wide) in paragraph at lines 340--344
 \OT1/cmr/m/n/12 Project and Turk-ish Land Forces Avionic Sys-tem Mod-ern-iza-ti
 on Project
  []
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [7] [8] [9]
-Overfull \hbox (11.4011pt too wide) in paragraph at lines 420--420
+) [9] [10]
+[11]
+Overfull \hbox (11.4011pt too wide) in paragraph at lines 447--447
 []\OT1/cmr/bx/n/14.4 Mechanical & Elec-tri-cal Tests of ULAK 4.5G Macro-
  []
 
-[10] [11] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[12] [13] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [12]
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
+) [14]
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--534
 []\OT1/cmr/m/n/12 Raspberry Pi 2 & 3 Pin Map-pings,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
+Underfull \hbox (badness 10000) in paragraph at lines 532--534
 \OT1/cmr/m/n/12 https://docs.microsoft.com/en-us/windows/iot-core/learn-about-
  []
 
-
-Underfull \hbox (badness 2088) in paragraph at lines 508--512
+[15]
+Underfull \hbox (badness 2088) in paragraph at lines 535--539
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
-[13] (EE400_v2.0.aux) ) 
+[16] (EE400_v2.0.aux) ) 
 Here is how much of TeX's memory you used:
- 18973 strings out of 493333
- 338069 string characters out of 3136576
- 415326 words of memory out of 3000000
- 22137 multiletter control sequences out of 15000+200000
+ 18974 strings out of 493333
+ 338078 string characters out of 3136576
+ 415395 words of memory out of 3000000
+ 22138 multiletter control sequences out of 15000+200000
  13705 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,97p,650b,1706s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -796,9 +810,9 @@ nts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on EE400_v2.0.pdf (14 pages, 193789 bytes).
+Output written on EE400_v2.0.pdf (17 pages, 611674 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

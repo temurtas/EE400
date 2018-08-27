@@ -41,7 +41,6 @@
 \usepackage{fancyref}
 \usepackage{subcaption}
 \usepackage[toc,page]{appendix} %appendix package
- %\usepackage{pythonhighlight}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{xspace}
@@ -121,6 +120,20 @@
 \makeatother
 \setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
 \setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+
+
+% For Blank Page -------------
+\newcommand{\blankpage}{
+	\- \\[8.5cm]	
+	{ \centering This Page Intentionally Left Blank \par }
+	\- \\[8.5cm]
+}
+% ---------------------------
+
+
+
+
 \begin{document}
 
 \begin{titlepage}
@@ -204,6 +217,10 @@
 \end{titlepage}
 
 
+\blankpage
+
+
+
 \tableofcontents
 \newpage
 
@@ -215,7 +232,8 @@
 \section{Introduction}
 \-
 \indent 
-
+\- \\[16cm]
+ 
 
 \section{Description of the Company}
 \- \indent
@@ -257,20 +275,25 @@
 	ASELSAN, together with the technology emphasis in its vision, has targeted to be a company that maintains its sustainable growth by creating value in the global market; preferred due to its competitiveness, trusted as a strategic partner, and caring for the environment and people.
 
 	Together with the highly qualified engineering staff within more than 5000 employees, being the main driving factor of the company's success, ASELSAN allocates 6\% of its annual income for self-financed research and development activities.
+	
+çalışan sayısı etc veriler 	
+	
+	
 \vfill
 \subsection{The Organizational Chart of the Company}
 \-
 \indent
 The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}}.
 
-\
 \begin{figure}[H]
 \center
 \setlength{\unitlength}{\textwidth} 
-\includegraphics[width=0.9\unitlength]{organizasyon2}
+%\includegraphics[width=0.9\unitlength]{organizasyon2}
+\includegraphics[width=0.9\unitlength]{organizasyon4}
 \caption{\label{fig:orgc}The Organizational Chart of ASELSAN }
 \end{figure}
-	
+
+		
 
 \subsection{A Brief History of the Company}
 \begin{itemize}
@@ -345,10 +368,14 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 \section{Orientation and Mandatory Education}
 
 \subsection{Orientation}
-
+\- \indent
+	My summer practice at ASELSAN started with an orientation program. The program lasted about one day mainly focused on the company and the work done there. Chapter 2 mostly summaries what was covered in the orientation. After the orientation, we were given necessary mandatory educations in order to be allowed to work inside the ASELSAN facilities.  
 
 \subsection{Mandatory Education}
-
+\- \indent
+		
+	
+	
 \subsubsection{Electrostatic Discharge (ESD) Education }
 \- \indent
 	Electrostatic discharge (ESD) is the sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown. A buildup of static electricity can be caused by tribocharging or by electrostatic induction. The ESD occurs when differently-charged objects are brought close together or when the dielectric between them breaks down, often creating a visible spark.
@@ -493,7 +520,7 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 	
 	Finally, I recommend my summer practice company for other students. 
 
-\vfill
+\- \\[13cm]
 
 \section{References}
 
