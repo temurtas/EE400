@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  29 AUG 2018 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  1 SEP 2018 17:38
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -715,22 +715,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 \openout4 = `EE400_v2.0.toc'.
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 233--236
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 250--261
+Underfull \hbox (badness 10000) in paragraph at lines 260--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--261
+Underfull \hbox (badness 10000) in paragraph at lines 260--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--261
+Underfull \hbox (badness 10000) in paragraph at lines 260--271
 
  []
 
@@ -738,25 +738,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--261
 File: organizasyon4.png Graphic file (type png)
 
 <use organizasyon4.png>
-Package pdftex.def Info: organizasyon4.png used on input line 292.
+Package pdftex.def Info: organizasyon4.png used on input line 302.
 (pdftex.def)             Requested size: 350.99762pt x 432.42319pt.
  [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 302.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 312.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 302.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 312.
  [7 <./organizasyon4.png>]
-Overfull \hbox (0.4919pt too wide) in paragraph at lines 329--332
+Overfull \hbox (0.4919pt too wide) in paragraph at lines 339--342
 \OT1/cmr/m/n/12 Con-trol Sys-tem, MIL-SIS Elec-tronic War-fare and X-Band Satel
 -lite Com-
  []
 
 [8]
-Overfull \hbox (2.82095pt too wide) in paragraph at lines 340--344
+Overfull \hbox (2.82095pt too wide) in paragraph at lines 350--354
 \OT1/cmr/m/n/12 Project and Turk-ish Land Forces Avionic Sys-tem Mod-ern-iza-ti
 on Project
  []
@@ -767,48 +767,48 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 [11] <radio_type.png, id=52, 1125.45468pt x 285.31593pt>
 File: radio_type.png Graphic file (type png)
  <use radio_type.png>
-Package pdftex.def Info: radio_type.png used on input line 414.
+Package pdftex.def Info: radio_type.png used on input line 424.
 (pdftex.def)             Requested size: 390.0pt x 98.86945pt.
 
 <radios.png, id=53, 1298.60156pt x 686.565pt>
 File: radios.png Graphic file (type png)
  <use radios.png>
-Package pdftex.def Info: radios.png used on input line 425.
+Package pdftex.def Info: radios.png used on input line 435.
 (pdftex.def)             Requested size: 390.0pt x 206.19109pt.
  [12 <./radio_type.png>] <ulak.png, id=59, 1151.80313pt x 608.2725pt>
 File: ulak.png Graphic file (type png)
  <use ulak.png>
-Package pdftex.def Info: ulak.png used on input line 444.
+Package pdftex.def Info: ulak.png used on input line 454.
 (pdftex.def)             Requested size: 390.0pt x 205.95602pt.
  [13 <./radios.png>] <attn.png, id=64, 268.50313pt x 187.19937pt>
 File: attn.png Graphic file (type png)
  <use attn.png>
-Package pdftex.def Info: attn.png used on input line 473.
+Package pdftex.def Info: attn.png used on input line 483.
 (pdftex.def)             Requested size: 292.5pt x 203.92902pt.
  [14 <./ulak.png>] [15 <./attn.png>] [16] [17]
 <ansosc.png, id=78, 772.8875pt x 667.49374pt>
 File: ansosc.png Graphic file (type png)
  <use ansosc.png>
-Package pdftex.def Info: ansosc.png used on input line 542.
+Package pdftex.def Info: ansosc.png used on input line 552.
 (pdftex.def)             Requested size: 331.50238pt x 286.29358pt.
  [18] [19 <./ansosc.png (PNG copy)>] [20] [21] <audany.png, id=92, 1282.03969pt
  x 676.02562pt>
 File: audany.png Graphic file (type png)
 
 <use audany.png>
-Package pdftex.def Info: audany.png used on input line 599.
+Package pdftex.def Info: audany.png used on input line 609.
 (pdftex.def)             Requested size: 390.0pt x 205.64595pt.
  [22 <./audany.png>]
 <dpo.png, id=97, 1214.28656pt x 369.63094pt>
 File: dpo.png Graphic file (type png)
  <use dpo.png>
-Package pdftex.def Info: dpo.png used on input line 620.
+Package pdftex.def Info: dpo.png used on input line 630.
 (pdftex.def)             Requested size: 390.0pt x 118.71295pt.
  [23 <./dpo.png>]
 [24] <tvac.jpg, id=106, 4946.48pt x 3292.3pt>
 File: tvac.jpg Graphic file (type jpg)
  <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 664.
+Package pdftex.def Info: tvac.jpg used on input line 674.
 (pdftex.def)             Requested size: 390.0pt x 259.57141pt.
  [25 <./tvac.jpg>]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
@@ -817,49 +817,28 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [26]
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 749--751
-[]\OT1/cmr/m/n/12 Raspberry Pi 2 & 3 Pin Map-pings,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 749--751
-\OT1/cmr/m/n/12 https://docs.microsoft.com/en-us/windows/iot-core/learn-about-
- []
-
-[27]
-Underfull \hbox (badness 2088) in paragraph at lines 752--756
+Underfull \hbox (badness 2088) in paragraph at lines 771--775
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--759
-[]\OT1/cmr/m/n/12 attinf https://www.radio-electronics.com/info/rf-technology-
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 776--778
+[]\OT1/cmr/m/n/12 A, https://www.radio-electronics.com/info/rf-technology-
  []
 
 
-Overfull \hbox (8.6864pt too wide) in paragraph at lines 763--765
-[]\OT1/cmr/m/n/12 powref http://www.livingston-products.com/products/pdf/105517
-[]1[]en.pdf 
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 769--771
-[]\OT1/cmr/m/n/12 tvac https://www.nasa.gov/feature/goddard/2017/nasas-apollo-e
-ra-test-
+Underfull \hbox (badness 10000) in paragraph at lines 788--790
+[]\OT1/cmr/m/n/12 E, https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era
+-test-
  []
 
 [28] (EE400_v2.0.aux) ) 
 Here is how much of TeX's memory you used:
- 19024 strings out of 493333
- 338712 string characters out of 3136576
- 416976 words of memory out of 3000000
- 22179 multiletter control sequences out of 15000+200000
+ 19028 strings out of 493333
+ 338743 string characters out of 3136576
+ 416992 words of memory out of 3000000
+ 22183 multiletter control sequences out of 15000+200000
  13705 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,97p,961b,1706s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -870,7 +849,7 @@ nts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on EE400_v2.0.pdf (29 pages, 6845590 bytes).
+Output written on EE400_v2.0.pdf (29 pages, 6848465 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
