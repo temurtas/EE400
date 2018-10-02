@@ -510,6 +510,81 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \vfill
 
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{elecaudio}
+	\caption{\label{fig:elecaudio}ASELSAN 9661 Radio Series }
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{refsens}
+	\caption{\label{fig:refsens}ASELSAN 9661 Radio Series }
+\end{figure}
+
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{transnoise}
+	\caption{\label{fig:transnoise}ASELSAN 9661 Radio Series }
+\end{figure}
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{c4fmmod}
+	\caption{\label{fig:c4fmmod}ASELSAN 9661 Radio Series }
+\end{figure}
+
+\subsubsection{Modulation Fidelity Test}
+\- \indent
+
+	Modulation fidelity is the degree of closeness to which the modulation follows the desired ideal therotical modulation.The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
+	
+	The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
+	
+\begin{table}[H]
+  \centering
+ 
+    \begin{tabular}{c|c|c}
+       $$Bits$$ & $$Symbols$$ & $$C4FM Deviation$$ \\ \hline
+       00 & +3 & +1.8 kHz  \\ \hline
+       01 & +1 & +0.6 kHz  \\ \hline
+       10 & -1 & -0.6 kHz  \\ \hline
+       11 & -3 & -1.8 kHz  
+      
+  \end{tabular}
+  \caption{modfide}
+  \label{tab:modfide}
+\end{table}
+
+	Let $s_K$ represents the C4FM deviation of the transmitted symbols, and $z_K$ represents the detected signals at $t_K$ sampling instants.
+	
+	The transmitter can be modelled as
+	
+	$$ z_K~=~C_O+C_L*(s_K~+~e_K) $$
+	
+	where $C_O$ is a constant representing carrier frequency offset and the $C_L$ is another constant called deviation errors that is resulting from gain errors in the transmitter's modulator baseband signal processing. And $e_K$ is called residual deviation error.
+	
+	
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{modfide}
+	\caption{\label{fig:modfide}ASELSAN 9661 Radio Series }
+\end{figure}
+
+
+
+
+
+
 \subsection{Tests on ULAK 4.5G Base Station  }
 
 \subsubsection{ULAK 4.5G Macrocell Base Station}
