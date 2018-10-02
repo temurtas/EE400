@@ -19,14 +19,9 @@
 \contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{11}
 \contentsline {subsection}{\numberline {4.2}Tests on ULAK 4.5G Base Station }{13}
 \contentsline {subsubsection}{\numberline {4.2.1}ULAK 4.5G Macrocell Base Station}{13}
-\contentsline {subsection}{\numberline {4.3}Test Equipments}{14}
-\contentsline {subsubsection}{\numberline {4.3.1}RF Attenuators}{14}
-\contentsline {subsubsection}{\numberline {4.3.2}Analyzers \& Oscilloscopes}{15}
-\contentsline {subsubsection}{\numberline {4.3.3}Signal Generators}{19}
-\contentsline {subsubsection}{\numberline {4.3.4}3920 Digital Radio Test Set}{19}
-\contentsline {subsection}{\numberline {4.4}Outer Space Simulations \& Tests using TVAC }{19}
-\contentsline {subsubsection}{\numberline {4.4.1}Thermal Vacuum Chamber (TVAC) }{19}
-\contentsline {subsection}{\numberline {4.5}Research on Components of ULAK 4.5G Base Station }{21}
-\contentsline {subsubsection}{\numberline {4.5.1}Alternate Components}{21}
-\contentsline {section}{\numberline {5}Conclusion}{21}
-\contentsline {section}{\numberline {6}References}{22}
+\contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{14}
+\contentsline {subsubsection}{\numberline {4.3.1}Thermal Vacuum Chamber (TVAC) }{14}
+\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{15}
+\contentsline {subsubsection}{\numberline {4.4.1}Alternate Components}{15}
+\contentsline {section}{\numberline {5}Conclusion}{16}
+\contentsline {section}{\numberline {6}References}{17}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  2 OCT 2018 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  2 OCT 2018 22:43
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -798,64 +798,38 @@ File: ulak.png Graphic file (type png)
  <use ulak.png>
 Package pdftex.def Info: ulak.png used on input line 522.
 (pdftex.def)             Requested size: 390.0pt x 205.95602pt.
- [12 <./radios.png>] [13 <./ulak.png>] <attn.png, id=72, 268.50313pt x 187.1993
-7pt>
-File: attn.png Graphic file (type png)
-
-<use attn.png>
-Package pdftex.def Info: attn.png used on input line 548.
-(pdftex.def)             Requested size: 292.5pt x 203.92902pt.
- [14 <./attn.png>] <ansosc.png, id=76, 772.8875pt x 667.49374pt>
-File: ansosc.png Graphic file (type png)
-
-<use ansosc.png>
-Package pdftex.def Info: ansosc.png used on input line 619.
-(pdftex.def)             Requested size: 331.50238pt x 286.29358pt.
- [15] [16 <./ansosc.png (PNG copy)>] [17]
-<audany.png, id=86, 1282.03969pt x 676.02562pt>
-File: audany.png Graphic file (type png)
- <use audany.png>
-Package pdftex.def Info: audany.png used on input line 674.
-(pdftex.def)             Requested size: 390.0pt x 205.64595pt.
-
-<dpo.png, id=87, 1214.28656pt x 369.63094pt>
-File: dpo.png Graphic file (type png)
- <use dpo.png>
-Package pdftex.def Info: dpo.png used on input line 693.
-(pdftex.def)             Requested size: 390.0pt x 118.71295pt.
- [18 <./audany.png>]
-[19 <./dpo.png>] <tvac.jpg, id=97, 4946.48pt x 3292.3pt>
+ [12 <./radios.png>] [13 <./ulak.png>] <tvac.jpg, id=72, 4946.48pt x 3292.3pt>
 File: tvac.jpg Graphic file (type jpg)
- <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 737.
-(pdftex.def)             Requested size: 390.0pt x 259.57141pt.
 
-[20 <./tvac.jpg>]
-Underfull \hbox (badness 2088) in paragraph at lines 832--836
+<use tvac.jpg>
+Package pdftex.def Info: tvac.jpg used on input line 547.
+(pdftex.def)             Requested size: 390.0pt x 259.57141pt.
+ [14 <./tvac.jpg>] [15]
+Underfull \hbox (badness 2088) in paragraph at lines 642--646
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 840--842
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
 []\OT1/cmr/m/n/12 A, https://www.radio-electronics.com/info/rf-technology-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 662--664
 []\OT1/cmr/m/n/12 E, https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era
 -test-
  []
 
-[22] (EE400_v2.0.aux) ) 
+[17] (EE400_v2.0.aux) ) 
 Here is how much of TeX's memory you used:
- 18143 strings out of 493333
- 329616 string characters out of 3136576
- 407390 words of memory out of 3000000
- 21302 multiletter control sequences out of 15000+200000
+ 18119 strings out of 493333
+ 329322 string characters out of 3136576
+ 406392 words of memory out of 3000000
+ 21282 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,94p,962b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,8n,94p,664b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -864,9 +838,9 @@ nts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb>
-Output written on EE400_v2.0.pdf (23 pages, 7766019 bytes).
+Output written on EE400_v2.0.pdf (18 pages, 5300885 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
