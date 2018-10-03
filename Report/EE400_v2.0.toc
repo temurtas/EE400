@@ -1,27 +1,29 @@
 \select@language {english}
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Description of the Company}{3}
-\contentsline {subsection}{\numberline {2.1}Company Name}{3}
+\contentsline {section}{\numberline {2}Description of the Company}{4}
+\contentsline {subsection}{\numberline {2.1}Company Name}{4}
 \contentsline {subsection}{\numberline {2.2}Company Locations}{4}
 \contentsline {subsubsection}{\numberline {2.2.1}Macunk\IeC {\"o}y Facilities}{4}
 \contentsline {subsubsection}{\numberline {2.2.2}Other Facilities}{4}
-\contentsline {subsection}{\numberline {2.3}General Description of the Company}{4}
-\contentsline {subsection}{\numberline {2.4}The Organizational Chart of the Company}{6}
+\contentsline {subsection}{\numberline {2.3}General Description of the Company}{5}
+\contentsline {subsection}{\numberline {2.4}ASELSAN'S Vision \& Mission}{6}
+\contentsline {subsubsection}{\numberline {2.4.1}Vision}{6}
+\contentsline {subsubsection}{\numberline {2.4.2}Mission}{6}
 \contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{7}
-\contentsline {section}{\numberline {3}Orientation and Mandatory Education}{9}
-\contentsline {subsection}{\numberline {3.1}Orientation}{9}
-\contentsline {subsection}{\numberline {3.2}Mandatory Educations}{9}
-\contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{9}
-\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{10}
-\contentsline {section}{\numberline {4}Work Done at SP Company}{10}
-\contentsline {subsection}{\numberline {4.1}Tests on 9661 Radio Family }{11}
-\contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{11}
-\contentsline {subsubsection}{\numberline {4.1.2}Modulation Fidelity Test}{14}
-\contentsline {subsection}{\numberline {4.2}Tests on ULAK 4.5G Base Station }{15}
-\contentsline {subsubsection}{\numberline {4.2.1}ULAK 4.5G Macrocell Base Station}{15}
-\contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{16}
-\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{18}
-\contentsline {subsubsection}{\numberline {4.4.1}Alternate Components}{18}
-\contentsline {section}{\numberline {5}Conclusion}{19}
-\contentsline {section}{\numberline {6}References}{20}
+\contentsline {subsection}{\numberline {2.6}The Organizational Chart of the Company}{9}
+\contentsline {section}{\numberline {3}Orientation and Mandatory Education}{10}
+\contentsline {subsection}{\numberline {3.1}Orientation}{10}
+\contentsline {subsection}{\numberline {3.2}Mandatory Educations}{10}
+\contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{10}
+\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{11}
+\contentsline {section}{\numberline {4}Work Done at SP Company}{11}
+\contentsline {subsection}{\numberline {4.1}Tests on 9661 Radio Family }{12}
+\contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{12}
+\contentsline {subsubsection}{\numberline {4.1.2}Modulation Fidelity Test}{15}
+\contentsline {subsection}{\numberline {4.2}Tests on ULAK 4.5G Base Station }{16}
+\contentsline {subsubsection}{\numberline {4.2.1}ULAK 4.5G Macrocell Base Station}{16}
+\contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{17}
+\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{19}
+\contentsline {section}{\numberline {5}Conclusion}{20}
+\contentsline {section}{\numberline {6}References}{21}
