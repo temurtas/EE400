@@ -560,17 +560,22 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 \subsubsection{Modulation Fidelity Test}
 \- \indent
 
-	Modulation fidelity is the degree of closeness to which the modulation follows the desired ideal therotical modulation.The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
-	
-	The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
+	Modulation fidelity is defined as the degree of closeness to which the modulation follows the desired ideal theoretical modulation by the P25(TIA/EIA-102) standard\cite{fidelity}. This is a very important measurement for P25 C4FM modulation as it is an indication of the quality of the signal being transmitted by the radio. Before we can understand the
+modulation fidelity measurement, we will need to look at the type
+of modulation that this measurement analyses.
+
+\paragraph{C4FM Modulation}
+\- \indent
+
+	P25 uses a type of modulation called C4FM, which is an acronym for “compatible 4 level frequency modulation”\cite{fidelity}. Basically, it is a special type of 4FSK modulation developed for the TIA/EIA-102 standard. P25 uses this type of modulation to transmit digital information in the form of digital “1’s” and “0’s”. 4FSK uses four different frequency “states” or “deviation points” to indicate a “symbol”. This symbol then equates to 2 bits of data as one of the four frequency shifts. The frequency shifts that correspond to each 2 bits of data are shown in \textit{Table~\ref{tab:modfide}}.
 	
 \begin{table}[H]
   \centering
  
     \begin{tabular}{c|c|c}
        $$Bits$$ & $$Symbols$$ & $$C4FM Deviation$$ \\ \hline
-       00 & +3 & +1.8 kHz  \\ \hline
-       01 & +1 & +0.6 kHz  \\ \hline
+       00 & +3 & +0.6 kHz  \\ \hline
+       01 & +1 & +1.8 kHz  \\ \hline
        10 & -1 & -0.6 kHz  \\ \hline
        11 & -3 & -1.8 kHz  
       
@@ -579,6 +584,38 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
   \label{tab:modfide}
 \end{table}
 
+	This information is sent at the “symbol rate”. For P25, this symbol rate is transmitted 4800 times per second. This results  with a bit rate of 9600 bits per second. 
+		
+	As part of modulation fidelity, it is desired to measure the deviation of each of the symbols that the radio under test generates and compare them with the ideal four deviation points indicated in \textit{Table~\ref{tab:modfide}}. This measurement will actually result in producing three important values that together will be indicators of the modulation fidelity of the radio under test.
+
+
+\paragraph{Frequency Error}
+\- \indent
+
+	The first value that we can calculate from the measured deviation of each of the symbols is the frequency error. Frequency error in this measurement refers to RF carrier frequency error.
+		
+	To understand this, think about the relationship between the four frequency deviations used in C4FM and RF carrier frequency error. A carrier frequency error would tend to shift all four of the deviations by the same amount. A positive frequency error would move all four of the deviation points in the positive direction. Let’s use a real world scenario for our example. In Chart 2.0 below, a 100 Hz frequency error might give the following results:
+
+
+\begin{table}[H]
+  \centering
+ 
+    \begin{tabular}{c|c|c}
+       $$Bits$$ & $$Symbols$$ & $$C4FM Deviation$$ \\ \hline
+       00 & +3 & +0.72 kHz  \\ \hline
+       01 & +1 & +1.9 kHz  \\ \hline
+       10 & -1 & -0.54 kHz  \\ \hline
+       11 & -3 & -1.68 kHz  
+      
+  \end{tabular}
+  \caption{modfide2}
+  \label{tab:modfide2}
+\end{table}
+
+The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
+	
+	The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
+	
 	Let $s_K$ represents the C4FM deviation of the transmitted symbols, and $z_K$ represents the detected signals at $t_K$ sampling instants.
 	
 	The transmitter can be modelled as
@@ -769,8 +806,9 @@ https://people.defensenews.com/top-100/
 \bibitem{diss}	F,
 https://www.csgb.gov.tr/media/4574/kitap01.pdf
 
-\bibitem{diss}	g,
-http://vertassets.blob.core.windows.net/download/3329a0be/3329a0be-8eb2-4f79-8fd8-cd64006a8bce/appnotep25.pdf
+\bibitem{fidelity}	g,
+https://en.wikipedia.org/wiki/Project\_25
+%http://vertassets.blob.core.windows.net/download/3329a0be/3329a0be-8eb2-4f79-8fd8-cd64006a8bce/appnotep25.pdf
 
 \bibitem{aselsan}	h,
 https://www.aselsan.com.tr/en-us/about-us/Pages/Default.aspx
