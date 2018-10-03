@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  2 OCT 2018 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  3 OCT 2018 10:13
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -834,34 +834,46 @@ Package pdftex.def Info: ulak.png used on input line 597.
 File: tvac.jpg Graphic file (type jpg)
 
 <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 622.
+Package pdftex.def Info: tvac.jpg used on input line 621.
 (pdftex.def)             Requested size: 390.0pt x 259.57141pt.
- [16 <./tvac.jpg>] [17]
-Underfull \hbox (badness 2088) in paragraph at lines 717--721
+ [16 <./tvac.jpg>]
+<tvac-cycle.png, id=94, 1385.175pt x 555.57562pt>
+File: tvac-cycle.png Graphic file (type png)
+ <use tvac-cycle.png>
+Package pdftex.def Info: tvac-cycle.png used on input line 637.
+(pdftex.def)             Requested size: 390.0pt x 156.4248pt.
+ [17 <./tvac-cycle.png>] [18]
+Underfull \hbox (badness 2088) in paragraph at lines 728--732
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--727
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 []\OT1/cmr/m/n/12 A, https://www.radio-electronics.com/info/rf-technology-
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 737--739
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 748--750
 []\OT1/cmr/m/n/12 E, https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era
 -test-
  []
 
-[19] (EE400_v2.0.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--756
+[]\OT1/cmr/m/n/12 http://vertassets.blob.core.windows.net/download/3329a0be/332
+9a0be-
+ []
+
+[20] (EE400_v2.0.aux) ) 
 Here is how much of TeX's memory you used:
- 18152 strings out of 493333
- 329826 string characters out of 3136576
+ 18158 strings out of 493333
+ 329931 string characters out of 3136576
  406392 words of memory out of 3000000
- 21310 multiletter control sequences out of 15000+200000
+ 21315 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,94p,664b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,94p,1131b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -870,11 +882,11 @@ s/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on EE400_v2.0.pdf (20 pages, 5355230 bytes).
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on EE400_v2.0.pdf (21 pages, 5387251 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

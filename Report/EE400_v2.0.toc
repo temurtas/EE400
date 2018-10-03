@@ -21,8 +21,7 @@
 \contentsline {subsection}{\numberline {4.2}Tests on ULAK 4.5G Base Station }{15}
 \contentsline {subsubsection}{\numberline {4.2.1}ULAK 4.5G Macrocell Base Station}{15}
 \contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{16}
-\contentsline {subsubsection}{\numberline {4.3.1}Thermal Vacuum Chamber (TVAC) }{16}
-\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{17}
-\contentsline {subsubsection}{\numberline {4.4.1}Alternate Components}{17}
-\contentsline {section}{\numberline {5}Conclusion}{18}
-\contentsline {section}{\numberline {6}References}{19}
+\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{18}
+\contentsline {subsubsection}{\numberline {4.4.1}Alternate Components}{18}
+\contentsline {section}{\numberline {5}Conclusion}{19}
+\contentsline {section}{\numberline {6}References}{20}

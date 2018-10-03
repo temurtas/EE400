@@ -610,11 +610,10 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 
 \subsection{Outer Space Simulations \& Tests using TVAC  }
 
-\subsubsection{Thermal Vacuum Chamber (TVAC) }
+%\subsubsection{Thermal Vacuum Chamber (TVAC) }
+\- \indent
+	A vacuum chamber is a rigid enclosure from which air and other gases are removed by a vacuum pump. This results in a low-pressure environment within the chamber, commonly referred to as a vacuum. A vacuum environment allows researchers to conduct physical experiments or to test mechanical devices which must operate in outer space (for example) or for processes such as vacuum drying or vacuum coating. Chambers are typically made of metals which may or may not shield applied external magnetic fields depending on wall thickness, frequency, resistivity, and permeability of the material used. Only some materials are suitable for vacuum use\cite{tvac}.
 
-	A vacuum chamber is a rigid enclosure from which air and other gases are removed by a vacuum pump. This results in a low-pressure environment within the chamber, commonly referred to as a vacuum. A vacuum environment allows researchers to conduct physical experiments or to test mechanical devices which must operate in outer space (for example) or for processes such as vacuum drying or vacuum coating. Chambers are typically made of metals which may or may not shield applied external magnetic fields depending on wall thickness, frequency, resistivity, and permeability of the material used. Only some materials are suitable for vacuum use.
-
-Chambers often have multiple ports, covered with vacuum flanges, to allow instruments or windows to be installed in the walls of the chamber. In low to medium-vacuum applications, these are sealed with elastomer o-rings. In higher vacuum applications, the flanges have knife edges machined onto them, which cut into a copper gasket when the flange is bolted on.
 
 \begin{figure}[H]
 	\center
@@ -623,13 +622,25 @@ Chambers often have multiple ports, covered with vacuum flanges, to allow instru
 	\caption{\label{fig:tvac}An Example Thermal Vacuum Chamber }
 \end{figure}
 
-A type of vacuum chamber frequently used in the field of spacecraft engineering is a thermal vacuum chamber, which provides a thermal environment representing what a spacecraft would experience in space.
+	A type of these vacuum chambers widely used in the spacecraft engineering field is a thermal vacuum chamber, which can simulate the thermal environment at which a spacecraft would be operating in space. In other words,	a thermal vacuum chamber is a vacuum chamber in which the radiative thermal environment is controlled. One example for this type of chamber can be seen at \textit{Figure~\ref{fig:tvac}} which is used in NASA.
 
-	A thermal vacuum chamber is a vacuum chamber in which the radiative thermal environment is controlled.
 
-Typically the thermal environment is achieved by passing liquids or fluids through thermal shrouds for cold temperatures or through the application of thermal lamps for high temperatures.
+	There are two thermal vacuum chambers with different capacities in the ASELSAN HBT Facilities. They are used mainly for the outer space simulation tests of the electronics parts of the TURKSAT 6A Project. The chambers can also be used by other project partners such as TAI and TURKSAT if needed.
+	
+	To simulate the outer space, the pressure in the chamber must be reduced to $10^{-5}~mBar$ or below to satisfy the requirements for the test. This was done by pulling the oxygen and other major atmospheric gases and pumping liquid nitrogen to the system to push leftover gases. Liquid Nitrogen is also used to reach the required minimum temperature for the test.
+	
+	According to the device under test's physical properties, two ways are used to reach the desired maximum temperature. One of them is using spacial thermal plates below the device. If the device should not be in contact with directly heat source second method for heating can be used.  That is to use the infrared heaters inside the chambers.
+	
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{tvac-cycle}
+	\caption{\label{fig:tvac-cycle}An Example Temperature Cycle }
+\end{figure}
 
-Thermal vacuum chambers are frequently used for testing spacecraft or parts thereof under a simulated space environment.
+
+	 To initialize the test, the atmospheric pressure inside the vacuum is reduced to $10^{-5}~mBar$ or below at room temperature. The device is expected to operate in such pressure levels, therefore, the pressure level is conserved until the last cycle by the PID controller inside the chamber. After the necessary pressure requirements is met, the temperature is set according to the customer's will, in our case customer was TURKSAT A.Ş. as owner of TURKSAT 6A. An example test cycle for testing the device under test can be seen at \textit{Figure~\ref{fig:tvac-cycle}}. Between each temperature change, the temperature inside the chamber is left unchanged up to six hours to ensure the stability of the operation of the device at that temperate. This can be done by taking the necessary measurement with half hours intervals. If the data are consistent with previous, temperature will be changed for next cycle. Unfortunately, I was not allowed the take screenshots for the test results or took pictures of other test steps,  I will not able to give further information about this topic.
+		
 
 \subsection{Research on Components of ULAK 4.5G Base Station  }
 
