@@ -1,31 +1,39 @@
 \select@language {english}
 \select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Description of the Company}{4}
-\contentsline {subsection}{\numberline {2.1}Company Name}{4}
-\contentsline {subsection}{\numberline {2.2}Company Locations}{4}
-\contentsline {subsubsection}{\numberline {2.2.1}Macunk\IeC {\"o}y Facilities}{4}
-\contentsline {subsubsection}{\numberline {2.2.2}Other Facilities}{4}
-\contentsline {subsection}{\numberline {2.3}General Description of the Company}{5}
-\contentsline {subsection}{\numberline {2.4}ASELSAN'S Vision \& Mission}{6}
-\contentsline {subsubsection}{\numberline {2.4.1}Vision}{6}
-\contentsline {subsubsection}{\numberline {2.4.2}Mission}{6}
-\contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{7}
-\contentsline {subsection}{\numberline {2.6}The Organizational Chart of the Company}{9}
-\contentsline {section}{\numberline {3}Orientation and Mandatory Education}{10}
-\contentsline {subsection}{\numberline {3.1}Orientation}{10}
-\contentsline {subsection}{\numberline {3.2}Mandatory Educations}{10}
-\contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{10}
-\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{11}
-\contentsline {section}{\numberline {4}Work Done at SP Company}{11}
-\contentsline {subsection}{\numberline {4.1}Tests on 9661 Radio Family }{12}
-\contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{12}
-\contentsline {subsubsection}{\numberline {4.1.2}Modulation Fidelity Test}{15}
-\contentsline {paragraph}{\numberline {4.1.2.1}C4FM Modulation}{15}
-\contentsline {paragraph}{\numberline {4.1.2.2}Frequency Error}{16}
-\contentsline {subsection}{\numberline {4.2}Tests on ULAK 4.5G Base Station }{17}
-\contentsline {subsubsection}{\numberline {4.2.1}ULAK 4.5G Macrocell Base Station}{17}
-\contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{19}
-\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{21}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}Description of the Company}{5}
+\contentsline {subsection}{\numberline {2.1}Company Name}{5}
+\contentsline {subsection}{\numberline {2.2}Company Locations}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}Macunk\IeC {\"o}y Facilities}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}Other Facilities}{5}
+\contentsline {subsection}{\numberline {2.3}General Description of the Company}{6}
+\contentsline {subsection}{\numberline {2.4}ASELSAN'S Vision \& Mission}{7}
+\contentsline {subsubsection}{\numberline {2.4.1}Vision}{7}
+\contentsline {subsubsection}{\numberline {2.4.2}Mission}{7}
+\contentsline {subsection}{\numberline {2.5}A Brief History of the Company}{8}
+\contentsline {subsection}{\numberline {2.6}The Organizational Chart of the Company}{10}
+\contentsline {section}{\numberline {3}Orientation and Mandatory Education}{11}
+\contentsline {subsection}{\numberline {3.1}Orientation}{11}
+\contentsline {subsection}{\numberline {3.2}Mandatory Educations}{11}
+\contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{11}
+\contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{12}
+\contentsline {section}{\numberline {4}Work Done at SP Company}{12}
+\contentsline {subsection}{\numberline {4.1}Electrical \& Mechanical Tests at the Environmental Tests Laboratory }{13}
+\contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{13}
+\contentsline {subsubsection}{\numberline {4.1.2}Electrical Configuration/Performance Test}{14}
+\contentsline {paragraph}{\numberline {4.1.2.1}Reference Sensitivity Test}{14}
+\contentsline {subsubsection}{\numberline {4.1.3}Transmitter FM Hum/Noise Ratio Test}{14}
+\contentsline {paragraph}{\numberline {4.1.3.1}C4FM Modulation }{14}
+\contentsline {subsubsection}{\numberline {4.1.4}Electrical Audio Performance Test}{15}
+\contentsline {subsubsection}{\numberline {4.1.5}Modulation Fidelity Test}{15}
+\contentsline {paragraph}{\numberline {4.1.5.1}C4FM Modulation}{15}
+\contentsline {paragraph}{\numberline {4.1.5.2}Frequency Error}{16}
+\contentsline {subsubsection}{\numberline {4.1.6}ULAK 4.5G Macrocell Base Station}{18}
+\contentsline {subsection}{\numberline {4.2}Outer Space Simulations \& Tests using TVAC }{19}
+\contentsline {subsubsection}{\numberline {4.2.1}Thermal Vacuum Chamber (TVAC) }{19}
+\contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{20}
+\contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{21}
+\contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{21}
+\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{21}
 \contentsline {section}{\numberline {5}Conclusion}{22}
 \contentsline {section}{\numberline {6}References}{23}

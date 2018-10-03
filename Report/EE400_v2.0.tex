@@ -493,13 +493,14 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	 
 	In my first days I was assigned to observe and participate the tests conducted at the Environmental   Test Laboratory. The test conducted there was mainly on ASELSAN 9661 Series Radios as well as other radio handsets and base stations. I mainly observed the these tests and participated in them as much as I could. I also observed and took part in the test about ASELSAN'S base station named ULAK. 
 
-\subsection{Tests on 9661 Radio Family  }
-
+\subsection{Electrical \& Mechanical Tests at the Environmental Tests Laboratory  }
+\- \indent
+	After my arrivel to the Environmental Test Laboratory, I started observing the test mainly done on ASELSAN 9661 series V/UHF radio. Before getting into the details for the electrical test, I will give some information about the device itself.   
+	
 \subsubsection{ASELSAN 9661 Radio Family}
 \- \indent	
-	The 9661 HF Radios are a new generation Software Defined Radio covering the HF 1.6-30MHz band. Software configurable architecture enables supporting various radio waveforms and EPM techniques. Beyond line of sight communication is made possible based on the latest HF technology via use of NATO STANAGs and Military Standards. The versatility of waveforms and modes enable communication even in the most hostile HF channel conditions. With the use of technologies such as Automatic Channel
+	The 9661 HF Radios are a software defined radio covering the HF 1.6-30MHz band. Software ins,de the radio supports various radio waveforms and EPM techniques. Beyond line of sight communication is made possible based on the HF technology via use of NATO STANAGs and Military Standards\cite{9661}. 
 
-	Selection (ACS) and Automatic Link Establishment (ALE), ease of use is provided while reducing the need for well-trained and experienced operator.
 
 \begin{figure}[H]
 	\center
@@ -508,30 +509,29 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\caption{\label{fig:radtyp}ASELSAN 9661 Radio Series }
 \end{figure}
 
-	The radio has embedded Built-In Digital Modem. Modem functionalities in the Software Defined HF Radio are implemented based on several NATO STANAGs and MIL-STD's. While voice and data can be transmitted over a preset fixed frequency, it is also possible to employ an Automatic Channel Selection mechanism which determines the usable frequency for communication. It is possible to communicate under intentional or unintentional interference by using frequency hopping mode of operation.
+	 While voice and data can be transmitted over a preset fixed frequency, it is also possible to employ an Automatic Channel Selection mechanism which determines the usable frequency for communication.
 
-	9661 HF Radio built-in modem (physical layer) includes Digital Data Waveforms, Automatic Link Establishment and Frequency Hopping. USB, LSB, ISB, AME, AM and CW modulations are supported through 9661 HF Software Defined Radio.  
+	
 
-\begin{figure}[H]
-	\center
-	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{radios}
-	\caption{\label{fig:rads}ASELSAN 9661 Radio Series }
-\end{figure}
+%\begin{figure}[H]
+%	\center
+%	\setlength{\unitlength}{\textwidth} 
+%	\includegraphics[width=1.0\unitlength]{radios}
+%	\caption{\label{fig:rads}ASELSAN 9661 Radio Series }
+%\end{figure}
 
-	Digital voice coding/decoding is performed with MELPe vocoder and the data rate for digital voice can be 600, 1200 or 2400 bps. Digital voice communication over fixed frequency can be encrypted. Data communication over fixed frequency can be encrypted or clear. Frequency hopping is the Electronic Protection Measure (EPM) for transmission of digital voice and data.
+	
+	9661 HF Radio family has three configurations for Manpack, Vehicle and Fixed Station usage. 20W can be used for Manpack and Vehicle configurations and 150 W can be used for Vehicle and Fixed Station configurations. The product line can be seen at \textit{Figure~\ref{fig:radtyp}}. As I spent my time at the laboratory, the test I observed were for the 100 W Vehicular/Base Station models. 
 
-	9661 HF Radio family has three configurations for Manpack, Vehicle and Fixed Station usage. 20W can be used for Manpack and Vehicle configurations and 150 W can be used for Vehicle and Fixed Station configurations.
+\- \\ \- \vfill
 
-\vfill
+\subsubsection{Electrical Configuration/Performance Test}
+\- \indent
 
-\begin{figure}[H]
-	\center
-	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{elecaudio}
-	\caption{\label{fig:elecaudio}ASELSAN 9661 Radio Series }
-\end{figure}
 
+
+\paragraph{Reference Sensitivity Test}
+\- \indent
 
 
 
@@ -539,22 +539,42 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{refsens}
-	\caption{\label{fig:refsens}ASELSAN 9661 Radio Series }
+	\caption{\label{fig:refsens}Reference Sensitivity Test System Diagram }
 \end{figure}
+
+\subsubsection{Transmitter FM Hum/Noise Ratio Test}
+\- \indent
 
 
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{transnoise}
-	\caption{\label{fig:transnoise}ASELSAN 9661 Radio Series }
+	\caption{\label{fig:transnoise}Transmitter FM Hum/Noise Ratio Test System Diagram }
 \end{figure}
+
+
+\paragraph{C4FM Modulation }
+\- \indent
 
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{c4fmmod}
-	\caption{\label{fig:c4fmmod}ASELSAN 9661 Radio Series }
+	\caption{\label{fig:c4fmmod}C4FM Modulation Calculation System Diagram }
+\end{figure}
+
+\- \\ \- \vfill
+
+\subsubsection{Electrical Audio Performance Test}
+\- \indent
+
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{elecaudio}
+	\caption{\label{fig:elecaudio}Electrical Audio Performance Test System Diagram }
 \end{figure}
 
 \subsubsection{Modulation Fidelity Test}
@@ -629,40 +649,43 @@ The fidelity is determined by from observations of the signal at the output of a
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{modfide}
-	\caption{\label{fig:modfide}ASELSAN 9661 Radio Series }
+	\caption{\label{fig:modfide}Modulation Fidelity Test System Diagram }
 \end{figure}
 
 
 
+\- \\[1.5cm] \- \vfill
 
 
-
-\subsection{Tests on ULAK 4.5G Base Station  }
+%\subsection{Tests on ULAK 4.5G Base Station  }
+	Besides 9661 Series Radios, multiple radio hand-sets and the 4.5G Base Station were tested at Environmental Test Laboratory. Similar electrical tests applied to the 9661 radio series were partially applied to the these base stations. Since I was not able spent enough time on the tests of the base station, I will quickly introduce the base station itself and pass the next section. 
 
 \subsubsection{ULAK 4.5G Macrocell Base Station}
 \- \indent
-	Based on Release 10 and Release 11 standards published by 3GPP, ULAK Macrocell Base Station is designed to support both Release 12 and Release 13 standards with flexible architecture that is open to software development without any hardware changes and is designed to work on different frequency bands for use in Commercial or Public Safety networks.  
+	Based on Release 10 and Release 11 standards published by 3GPP, ULAK Macrocell Base Station is designed to support both Release 12 and Release 13 standards with flexible architecture that is open to software development without any hardware changes and is designed to work on different frequency bands for use in Commercial or Public Safety networks\cite{ulak}.  
 
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{ulak}
-	\caption{\label{fig:ulak}ULAK 4.5G Base Station }
+	\caption{\label{fig:ulak}ULAK 4.5G Base Station\cite{ulak} }
 \end{figure}	
 	
 	To enrich the product portfolio; the following studies are currently carried out:
 
 	Integration of LTE-A to Narrowband Communication Systems,
 LTE-Advanced Mobile Terminal Safety Software  
-With the development of 4.5G Communication Systems, it is aimed to meet the need of fast, secure and continuous communication of both mobile operators and public institutions.
+With the development of 4.5G Communication Systems, it is aimed to meet the need of fast, secure and continuous communication of both mobile operators and public institutions\cite{ulak}.
 
 
 \vfill
 
 
 \subsection{Outer Space Simulations \& Tests using TVAC  }
-
-%\subsubsection{Thermal Vacuum Chamber (TVAC) }
+\- \indent
+	As I worked in the Test \& Process Design Department, I did not spend my whole time at Environmental Test Laboratory, I also spent some of my time at the Space Simulation Laboratory of the Department. The laboratory was responsible for the outer space test of the electrical components of he TURKSAT 6-A project as I made summer practice. Before going into detail, I will give brief information about the thermal chambers used there.
+	
+\subsubsection{Thermal Vacuum Chamber (TVAC) }
 \- \indent
 	A vacuum chamber is a rigid enclosure from which air and other gases are removed by a vacuum pump. This results in a low-pressure environment within the chamber, commonly referred to as a vacuum. A vacuum environment allows researchers to conduct physical experiments or to test mechanical devices which must operate in outer space (for example) or for processes such as vacuum drying or vacuum coating. Chambers are typically made of metals which may or may not shield applied external magnetic fields depending on wall thickness, frequency, resistivity, and permeability of the material used. Only some materials are suitable for vacuum use\cite{tvac}.
 
@@ -670,7 +693,7 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{tvac}
+	\includegraphics[width=0.9\unitlength]{tvac}
 	\caption{\label{fig:tvac}An Example Thermal Vacuum Chamber }
 \end{figure}
 
@@ -679,6 +702,8 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 
 	There are two thermal vacuum chambers with different capacities in the ASELSAN HBT Facilities. They are used mainly for the outer space simulation tests of the electronics parts of the TURKSAT 6A Project. The chambers can also be used by other project partners such as TAI and TURKSAT if needed.
 	
+\subsubsection{Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }
+
 	To simulate the outer space, the pressure in the chamber must be reduced to $10^{-5}~mBar$ or below to satisfy the requirements for the test. This was done by pulling the oxygen and other major atmospheric gases and pumping liquid nitrogen to the system to push leftover gases. Liquid Nitrogen is also used to reach the required minimum temperature for the test.
 	
 	According to the device under test's physical properties, two ways are used to reach the desired maximum temperature. One of them is using spacial thermal plates below the device. If the device should not be in contact with directly heat source second method for heating can be used.  That is to use the infrared heaters inside the chambers.
@@ -695,8 +720,16 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 		
 
 \subsection{Research on Components of ULAK 4.5G Base Station  }
+\- \indent
 
-%\subsubsection{Alternate Components}
+	Mainly on the second half of my internship, I also spent my time at the department itself besides the laboratories. In this part of my summer practice, I was responsible for making research on the components of the ULAK Base Station for possible upgrade for the device. Due to regulations, I will give some examples about the work done at this part of summer practice. 
+
+
+\subsubsection{Misidentified Components}
+\- \indent
+	
+	
+\subsubsection{Alternate Components}
 \- \indent
 	
 
@@ -812,7 +845,15 @@ https://en.wikipedia.org/wiki/Project\_25
 
 \bibitem{aselsan}	h,
 https://www.aselsan.com.tr/en-us/about-us/Pages/Default.aspx
+
+\bibitem{9661}	g2,
+https://www.aselsan.com.tr/en-us/capabilities/cpb1/Brochures/9661\_HF/9661\%20HF\%20Gound\%20Radio\%20Family.pdf
+
+\bibitem{ulak}	h2,
+https://www.aselsan.com.tr/en-us/capabilities/public-safety-communication-systems/mobile-communication-technologies-ulak-4-5g-5g/ulak-commercial-and-public-safety-4-5g-macrocell-base-station
+
 \end{thebibliography}
+
 \endgroup
 
 \vfill
