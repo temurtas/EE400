@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  3 OCT 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  4 OCT 2018 10:14
 entering extended mode
 **./EE400_v2.1.tex
 (EE400_v2.1.tex
@@ -824,90 +824,111 @@ File: modfide.png Graphic file (type png)
 Package pdftex.def Info: modfide.png used on input line 651.
 (pdftex.def)             Requested size: 390.0pt x 56.23544pt.
  [17 <./modfide.png>]
-<ulak.png, id=92, 1151.80313pt x 608.2725pt>
+<attn.png, id=92, 268.50313pt x 187.19937pt>
+File: attn.png Graphic file (type png)
+ <use attn.png>
+Package pdftex.def Info: attn.png used on input line 672.
+(pdftex.def)             Requested size: 292.5pt x 203.92902pt.
+ [18 <./attn.png>]
+<ansosc.png, id=97, 772.8875pt x 667.49374pt>
+File: ansosc.png Graphic file (type png)
+ <use ansosc.png>
+Package pdftex.def Info: ansosc.png used on input line 743.
+(pdftex.def)             Requested size: 331.50238pt x 286.29358pt.
+ [19] [20 <./ansosc.png (PNG copy)>] [21] <audany.png, id=107, 1282.03969pt x 6
+76.02562pt>
+File: audany.png Graphic file (type png)
+
+<use audany.png>
+Package pdftex.def Info: audany.png used on input line 798.
+(pdftex.def)             Requested size: 390.0pt x 205.64595pt.
+ <dpo.png, id=108, 1214.28656pt x 369.63094pt>
+File: dpo.png Graphic file (type png)
+ <use dpo.png>
+Package pdftex.def Info: dpo.png used on input line 817.
+(pdftex.def)             Requested size: 390.0pt x 118.71295pt.
+
+[22 <./audany.png>] <ulak.png, id=113, 1151.80313pt x 608.2725pt>
 File: ulak.png Graphic file (type png)
- <use ulak.png>
-Package pdftex.def Info: ulak.png used on input line 670.
+
+<use ulak.png>
+Package pdftex.def Info: ulak.png used on input line 856.
 (pdftex.def)             Requested size: 390.0pt x 205.95602pt.
- [18 <./ulak.png>]
-<tvac.jpg, id=98, 4946.48pt x 3292.3pt>
+ [23 <./dpo.png>] [24 <./ulak.png>]
+<tvac.jpg, id=123, 4946.48pt x 3292.3pt>
 File: tvac.jpg Graphic file (type jpg)
  <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 696.
+Package pdftex.def Info: tvac.jpg used on input line 882.
 (pdftex.def)             Requested size: 350.99762pt x 233.5992pt.
- [19 <./tvac.jpg>]
-Overfull \hbox (15.68195pt too wide) in paragraph at lines 705--705
+ [25 <./tvac.jpg>]
+Overfull \hbox (15.68195pt too wide) in paragraph at lines 891--891
 []\OT1/cmr/bx/n/12 Tests & Sim-u-la-tions Us-ing Ther-mal Vac-uum Cham-ber (TVA
 C) 
  []
 
-<tvac-cycle.png, id=102, 1385.175pt x 555.57562pt>
+<tvac-cycle.png, id=127, 1385.175pt x 555.57562pt>
 File: tvac-cycle.png Graphic file (type png)
  <use tvac-cycle.png>
-Package pdftex.def Info: tvac-cycle.png used on input line 714.
+Package pdftex.def Info: tvac-cycle.png used on input line 900.
 (pdftex.def)             Requested size: 390.0pt x 156.4248pt.
 
-[20 <./tvac-cycle.png>] [21]
-Underfull \hbox (badness 2088) in paragraph at lines 816--820
+[26 <./tvac-cycle.png>] [27]
+Underfull \hbox (badness 2088) in paragraph at lines 1002--1006
 []\OT1/cmr/m/n/12 Temurtas Halil, \OT1/cmr/m/it/12 Sun Tracker Sys-tem\OT1/cmr/
 m/n/12 , Bit-bucket repos-i-tory,(2017),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 824--826
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1012
 []\OT1/cmr/m/n/12 A, https://www.radio-electronics.com/info/rf-technology-
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 836--838
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1024
 []\OT1/cmr/m/n/12 E, https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era
 -test-
  []
 
 
-Overfull \hbox (279.30226pt too wide) in paragraph at lines 849--851
+Overfull \hbox (279.30226pt too wide) in paragraph at lines 1035--1037
 []\OT1/cmr/m/n/12 g2, https://www.aselsan.com.tr/en-us/capabilities/cpb1/Brochu
 res/9661[]HF/9661%20HF%20Gound%20Radio%20Family.pdf 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1040
 []\OT1/cmr/m/n/12 h2, https://www.aselsan.com.tr/en-us/capabilities/public-safe
 ty-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1040
 \OT1/cmr/m/n/12 communication-systems/mobile-communication-technologies-ulak-4-
 5g-
  []
 
-[23] (EE400_v2.1.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[29] (EE400_v2.1.aux) ) 
 Here is how much of TeX's memory you used:
- 18157 strings out of 493333
- 329897 string characters out of 3136576
+ 18181 strings out of 493333
+ 330191 string characters out of 3136576
  407392 words of memory out of 3000000
- 21315 multiletter control sequences out of 15000+200000
+ 21335 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,94p,1134b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.1.pdf (24 pages, 4657566 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on EE400_v2.1.pdf (30 pages, 7142997 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

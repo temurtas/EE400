@@ -28,12 +28,17 @@
 \contentsline {subsubsection}{\numberline {4.1.5}Modulation Fidelity Test}{15}
 \contentsline {paragraph}{\numberline {4.1.5.1}C4FM Modulation}{15}
 \contentsline {paragraph}{\numberline {4.1.5.2}Frequency Error}{16}
-\contentsline {subsubsection}{\numberline {4.1.6}ULAK 4.5G Macrocell Base Station}{18}
-\contentsline {subsection}{\numberline {4.2}Outer Space Simulations \& Tests using TVAC }{19}
-\contentsline {subsubsection}{\numberline {4.2.1}Thermal Vacuum Chamber (TVAC) }{19}
-\contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{20}
-\contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{21}
-\contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{21}
-\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{21}
-\contentsline {section}{\numberline {5}Conclusion}{22}
-\contentsline {section}{\numberline {6}References}{23}
+\contentsline {subsubsection}{\numberline {4.1.6}Test Equipments}{18}
+\contentsline {paragraph}{\numberline {4.1.6.1}Attenuators}{18}
+\contentsline {paragraph}{\numberline {4.1.6.2}Analyzers \& Oscilloscopes}{19}
+\contentsline {paragraph}{\numberline {4.1.6.3}Signal Generators}{23}
+\contentsline {paragraph}{\numberline {4.1.6.4}3920 Digital Radio Test Set}{23}
+\contentsline {subsection}{\numberline {4.2}ULAK 4.5G Macrocell Base Station}{23}
+\contentsline {subsection}{\numberline {4.3}Outer Space Simulations \& Tests using TVAC }{24}
+\contentsline {subsubsection}{\numberline {4.3.1}Thermal Vacuum Chamber (TVAC) }{25}
+\contentsline {subsubsection}{\numberline {4.3.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{26}
+\contentsline {subsection}{\numberline {4.4}Research on Components of ULAK 4.5G Base Station }{27}
+\contentsline {subsubsection}{\numberline {4.4.1}Misidentified Components}{27}
+\contentsline {subsubsection}{\numberline {4.4.2}Alternate Components}{27}
+\contentsline {section}{\numberline {5}Conclusion}{28}
+\contentsline {section}{\numberline {6}References}{29}
