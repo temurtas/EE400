@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {4}Work Done at SP Company}{12}
 \contentsline {subsection}{\numberline {4.1}Electrical \& Mechanical Tests at the Environmental Tests Laboratory }{13}
 \contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{13}
-\contentsline {subsubsection}{\numberline {4.1.2}Electrical Configuration/Performance Test}{14}
+\contentsline {subsubsection}{\numberline {4.1.2}Electrical Configuration/Performance Test}{13}
 \contentsline {paragraph}{\numberline {4.1.2.1}Reference Sensitivity Test}{14}
 \contentsline {subsubsection}{\numberline {4.1.3}Transmitter FM Hum/Noise Ratio Test}{14}
 \contentsline {paragraph}{\numberline {4.1.3.1}C4FM Modulation }{14}
