@@ -54,7 +54,7 @@
 \usepackage{fancyhdr}
 
 
-
+\usepackage[final]{pdfpages}
 
 
 \newcommand\nd{\textsuperscript{nd}\xspace}
@@ -447,7 +447,7 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 \center
 \setlength{\unitlength}{\textwidth} 
 %\includegraphics[width=0.9\unitlength]{organizasyon2}
-\includegraphics[width=0.93\unitlength]{organizasyon4}
+\includegraphics[width=0.9\unitlength]{organizasyon4}
 \caption{\label{fig:orgc}The Organizational Chart of ASELSAN }
 \end{figure}
 
@@ -510,7 +510,7 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{radio_type}
-	\caption{\label{fig:radtyp}ASELSAN 9661 Radio Series }
+	\caption{\label{fig:radtyp}ASELSAN 9661 Radio Series\cite{9661} }
 \end{figure}
 
 	 While voice and data can be transmitted over a preset fixed frequency, it is also possible to employ an Automatic Channel Selection mechanism which determines the usable frequency for communication.
@@ -529,15 +529,52 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \- \\[2cm]
 
-\subsubsection{Electrical Configuration/Performance Test}
+
+
+
+\subsubsection{Test Devices}
 \- \indent
 
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=0.75\unitlength]{components}
+	\caption{\label{fig:components}General Test Devices \cite{9661,specan,keysight,mult}}
+\end{figure}
+
+\paragraph{Attenuators} \- \\
+\- \indent
+	RF attenuators are a universal building block within the RF design arena. RF attenuators can be fixed, switched or even continuously variable.
+
+Dependent upon their type, they can be designed using just resistors, they may need a switch, either mechanical or solid state, or they may use diodes to make them continuously variable over a given range.
+
+	As the name implies RF attenuators reduce the level of the signal, i.e. they attenuate the signal.
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=0.5\unitlength]{attn}
+	\caption{\label{fig:attn}Some Attenuator Examples }
+\end{figure}
+
+	This attenuation may be required to protect a circuit stage from receiving a signal level that is too high. Also an attenuator may be used to provide an accurate impedance match as most fixed attenuators offer a well-defined impedance, or attenuators may be used in a variety of areas where signal levels need to be controlled.
+
+	There are many used for these RF attenuators and although these may not seem obvious initially when asking what is an attenuator, they are widely used in RF applications.
+
+
+RF attenuators are used widely within RF circuits for a variety of reasons. Fortunately these attenuators are easy to design and using surface mount technology their performance can be exceedingly good.
+
+
+\subsubsection{Electrical Configuration/Performance Tests}
+\- \indent
 
 
 \paragraph{Reference Sensitivity Test}
 \- \indent
+ The Reference sensitivity is the level of receiver input signal at a specified frequency with specified modulation that will result in the standard BER (Bit Error Rate) at the receiver detector according to TIA Standart called Project 25 \cite{P25}.
 
-
+	To measure the reference sensitivity, test set-up at the \textbf{Figure~\ref{fig:refsens}} must be established. After adjusting the input level to achieve   standard bit error rate at the output when measured at least a 250 ms time interval, the reference sensitivity will be signal level at the RF Signal Generator.
 
 \begin{figure}[H]
 	\center
@@ -546,7 +583,43 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\caption{\label{fig:refsens}Reference Sensitivity Test System Diagram }
 \end{figure}
 
-\subsubsection{Transmitter FM Hum/Noise Ratio Test}
+\paragraph{Residual Audio Noise Ratio Test}
+\- \indent
+	The audio output distortion is the voltage ratio, usually expressed as a percentage of the rms value of the undesired signal to the rms value of the complete signal, at the output of the receiver according to Project 25 Standart\cite{P25}.
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=0.75\unitlength]{resaudtest}
+	\caption{\label{fig:resaudtest}Residual Audio Noise Ratio Test System Diagram }
+\end{figure}
+
+	To measure the residual audio noise ratio, test set-up at the \textbf{Figure~\ref{fig:resaudtest}} must be established. Firstly, while applying a standard input signal at the standard input signal level to the receiver input terminals, the receiver for rated audio frequency output power should be adjusted. Then, the audio output level is recorded as $V_{Ref}$.
+	
+	After doing so, the input signal should be changed to the standard silence test pattern, in other words no signal should be supplied to the test system. The audio output level at this scenario is recorded as $V_{S}$.
+	
+	Lastly, the signal generator is removed to mute the receiver and measure the receiver audio output. This audio level is recorded as $V_{Mute}$. The residual audio noise ratio can be calculated as follows:
+	
+$$	Residual~Audio~Noise~Ratio~(Silence)~=~20~log_{10}(\frac{V_{Ref}}{V_{S}}) 	$$
+
+$$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load}}) 	$$
+
+
+\paragraph{RF Output Power Test}
+\- \indent
+	The RF output power of a transmitter for this service is the power available at the output terminals of the transmitter when the output terminals are connected to the standard transmitter load according to Project 25 Standart\cite{P25}..
+
+	To measure the RF output power, test set-up at the \textbf{Figure~\ref{fig:rfouttest}} must be established
+	
+	
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=0.75\unitlength]{rfouttest}
+	\caption{\label{fig:rfouttest}RF Output Power Test System Diagram }
+\end{figure}
+
+\paragraph{Transmitter FM Hum/Noise Ratio Test}
 \- \indent
 
 
@@ -570,7 +643,7 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \- \\ \- \vfill
 
-\subsubsection{Electrical Audio Performance Test}
+\paragraph{Electrical Audio Performance Test}
 \- \indent
 
 
@@ -581,14 +654,14 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\caption{\label{fig:elecaudio}Electrical Audio Performance Test System Diagram }
 \end{figure}
 
-\subsubsection{Modulation Fidelity Test}
+\paragraph{Modulation Fidelity Test}
 \- \indent
 
 	Modulation fidelity is defined as the degree of closeness to which the modulation follows the desired ideal theoretical modulation by the P25(TIA/EIA-102) standard\cite{fidelity}. This is a very important measurement for P25 C4FM modulation as it is an indication of the quality of the signal being transmitted by the radio. Before we can understand the
 modulation fidelity measurement, we will need to look at the type
 of modulation that this measurement analyses.
 
-\paragraph{C4FM Modulation}
+\subparagraph{C4FM Modulation}
 \- \indent
 
 	P25 uses a type of modulation called C4FM, which is an acronym for “compatible 4 level frequency modulation”\cite{fidelity}. Basically, it is a special type of 4FSK modulation developed for the TIA/EIA-102 standard. P25 uses this type of modulation to transmit digital information in the form of digital “1’s” and “0’s”. 4FSK uses four different frequency “states” or “deviation points” to indicate a “symbol”. This symbol then equates to 2 bits of data as one of the four frequency shifts. The frequency shifts that correspond to each 2 bits of data are shown in \textit{Table~\ref{tab:modfide}}.
@@ -613,7 +686,7 @@ of modulation that this measurement analyses.
 	As part of modulation fidelity, it is desired to measure the deviation of each of the symbols that the radio under test generates and compare them with the ideal four deviation points indicated in \textit{Table~\ref{tab:modfide}}. This measurement will actually result in producing three important values that together will be indicators of the modulation fidelity of the radio under test.
 
 
-\paragraph{Frequency Error}
+\subparagraph{Frequency Error}
 \- \indent
 
 	The first value that we can calculate from the measured deviation of each of the symbols is the frequency error. Frequency error in this measurement refers to RF carrier frequency error.
@@ -698,7 +771,7 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=0.9\unitlength]{tvac}
-	\caption{\label{fig:tvac}An Example Thermal Vacuum Chamber }
+	\caption{\label{fig:tvac}An Example Thermal Vacuum Chamber \cite{tvac}}
 \end{figure}
 
 	A type of these vacuum chambers widely used in the spacecraft engineering field is a thermal vacuum chamber, which can simulate the thermal environment at which a spacecraft would be operating in space. In other words,	a thermal vacuum chamber is a vacuum chamber in which the radiative thermal environment is controlled. One example for this type of chamber can be seen at \textit{Figure~\ref{fig:tvac}} which is used in NASA.
@@ -731,11 +804,99 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 
 \subsubsection{Misidentified Components}
 \- \indent
+	As I spent my time at department itself, I was responsible for two types of component research. One type of these researches was to identify the problem on the newly arrived printed circuit boards for the base station. Since I was not permitted to take the photographs of these components, I will give some details without actual photos for the components. 	
 	
+	Two give a spesific example, I will give detail about one of this problems. 
 	
+\begin{figure}[H]
+	\setlength{\unitlength}{\textwidth} 
+	\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=0.24\unitlength]{2746_ust}
+  		\caption{\label{fig:2746top}Top View of the 2746TB}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+		\includegraphics[width=0.24\unitlength]{2712_ust}
+  		\caption{\label{fig:2712top}Top View of the 2712TB}
+	\end{subfigure}
+\caption{\label{fig:274612top} Top View of the UPC2746TB \& UPC2712TB ICs  \cite{2746,2712} }
+\end{figure}	
+
+
+
+
+\begin{figure}[H]
+	\setlength{\unitlength}{\textwidth} 
+	\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=0.3\unitlength]{2746_cct}
+  		\caption{\label{fig:2746top}Equivalent Circuit of the 2746TB}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+		\includegraphics[width=0.3\unitlength]{2712_cct}
+  		\caption{\label{fig:2712top}Equivalent Circuit of the 2712TB}
+	\end{subfigure}
+\caption{\label{fig:274612top} Internal Equivalent Circuit of the UPC2746TB \& UPC2712TB ICs   }
+\end{figure}	
+
+
+
+
+\begin{figure}[H]
+	\setlength{\unitlength}{\textwidth} 
+	\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=0.3\unitlength]{2746_perf}
+  		\caption{\label{fig:2746top}Performance Curve for the 2746TB }
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+		\includegraphics[width=0.3\unitlength]{2712_perf}
+  		\caption{\label{fig:2712top}Top View of the UPC2712TB IC}
+	\end{subfigure}
+\caption{\label{fig:274612top} Typical Performance Curves for the UPC2746TB \& UPC2712TB ICs   }
+\end{figure}	
+
+
 \subsubsection{Alternate Components}
 \- \indent
 	
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{zpack}
+	\caption{\label{fig:tvac-cycle}TE Connectivity Z-Pack HM-Zd Plus Backplane Connectors \cite{teconnec}}
+\end{figure}
+
+
+%\begin{figure}[H]
+%	\center
+%	\setlength{\unitlength}{\textwidth} 
+%	\includegraphics[width=1.0\unitlength]{zpack2}
+%	\caption{\label{fig:tvac-cycle}An Example Temperature Cycle }
+%\end{figure}
+
+
+%\begin{figure}[H]
+%	\center
+%	\setlength{\unitlength}{\textwidth} 
+%	\includegraphics[width=1.0\unitlength]{ermetzd}
+%	\caption{\label{fig:tvac-cycle}An Example Temperature Cycle }
+%\end{figure}
+
+\begin{figure}[H]
+	\center
+	\setlength{\unitlength}{\textwidth} 
+	\includegraphics[width=1.0\unitlength]{ermetzd2}
+	\caption{\label{fig:ermetzd} ERNI Ermet ZDplus Backplane Connectors \cite{ermetzd} }
+\end{figure}
+
 
 
 \- \vfill
@@ -825,11 +986,11 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 \bibitem{defense} DefenseNews Top 100 Defense Companies List 2018,(n.d.), 
 Retrieved September 1, 2018, from https://people.defensenews.com/top-100/
 	
-\bibitem{attinf} RF Attenuator Basics \& Tutorial. ,(n.d.), 
-Retrieved September 2, 2018, from https://www.radio-electronics.com/info/rf-technology-design/attenuators/rf-attenuators-basics-tutorial.php
+%\bibitem{attinf} RF Attenuator Basics \& Tutorial. ,(n.d.), 
+%Retrieved September 2, 2018, from https://www.radio-electronics.com/info/rf-%technology-design/attenuators/rf-attenuators-basics-tutorial.php
 
-\bibitem{attpic}	Attenuators, (2016, December 03),
-Retrieved August 28, 2018, from https://nelsoncreated.com/products/attenuators-2
+%\bibitem{attpic}	Attenuators, (2016, December 03),
+%Retrieved August 28, 2018, from https://nelsoncreated.com/products/attenuators-2
 
 %\bibitem{powref}	C,
 %	http://www.livingston-products.com/products/pdf/105517\_1\_en.pdf
@@ -844,7 +1005,6 @@ Retrieved August 14, 2018, from https://www.csgb.gov.tr/media/4574/kitap01.pdf
 
 \bibitem{fidelity} Project 25, (2018, September 20),
 Retrieved October 2, 2018, from https://en.wikipedia.org/wiki/Project\_25
-%http://vertassets.blob.core.windows.net/download/3329a0be/3329a0be-8eb2-4f79-8fd8-cd64006a8bce/appnotep25.pdf
 
 \bibitem{aselsan} ASELSAN About Us, (n.d.),
 Retrieved July 27, 2018, from https://www.aselsan.com.tr/en-us/about-us/Pages/Default.aspx
@@ -856,27 +1016,48 @@ Retrieved August 4, 2018, from https://www.aselsan.com.tr/en-us/capabilities/cpb
 Retrieved August 4, 2018, from https://www.aselsan.com.tr/en-us/capabilities/public-safety-communication-systems/mobile-communication-technologies-ulak-4-5g-5g/ulak-commercial-and-public-safety-4-5g-macrocell-base-station
 
 
-https://cdn.rohde-schwarz.com/pws/product/f_1/fsu/FSU_front_stage_landscape.jpg
+\bibitem{specan} Rohde-Schwarz Spectrum Analyser, (n.d.), 
+Retrieved August 4, 2018, from https://cdn.rohde-schwarz.com/pws/product/f\_1/fsu/FSU\_front\_stage\_landscape.jpg
 
-http://rfmw.em.keysight.com/mod/pdf/solutions_radio_test_ref_soln__presentation.pdf
+\bibitem{keysight} Keysight Radio Test Reference Solution, (n.d.), 
+Retrieved August 19, 2018, from http://rfmw.em.keysight.com/mod/pdf/solutions\_radio\_test\_ref\_soln\_presentation.pdf
 
-https://www.keysight.com/en/pd-692679-pn-34411A/digital-multimeter-6-digit-enhanced-performance?cc=TR&lc=eng
+\bibitem{mult} Keysight PN-3458A Digital Multimeter, (n.d.), 
+Retrieved August 19, 2018, from Retrieved August 19, 2018, from https://www.keysight.com/en/pdx-2905513-pn-3458A/digital-multimeter-8-digit?cc=TR\&lc=eng
 
-https://www.keysight.com/en/pdx-2905513-pn-3458A/digital-multimeter-8-digit?cc=TR&lc=eng
 
-https://www.qsl.net/kb9mwr/projects/dv/apco25/TIA-102.CAAB-C-2010.pdf
+\bibitem{P25} Land Mobile Radio Transceiver Performance Recommendations , (2010,January), Retrieved August 4, 2018, from https://www.qsl.net/kb9mwr/projects/dv/apco25/TIA-102.CAAB-C-2010.pdf
+
+
+
+\bibitem{ermetzd} ERNI Ermet ZDplus Backplane Connectors , (n.d.) , Retrieved August 27, 2018, from https://www.erni.com/fileadmin/user\_upload/Downloads/Products/ERmet\_ZD/ERNI-ERmetZDplus-EN.pdf
+
+\bibitem{teconnec} TE Connectivity Z-Pack HM-Zd Plus Backplane Connectors , (n.d.), Retrieved August 4, 2018, from https://www.te.com/usa-en/product-2065657-1.html
+
+\bibitem{2746} NEC UPC2746TB Datasheet , (n.d.), Retrieved August 24, 2018, from http://www.cel.com/pdf/datasheets/up2745tb.pdf
+
+\bibitem{2712} NEC UPC2746TB Datasheet  , (n.d.), Retrieved August 24, 2018, from http://www.cel.com/pdf/datasheets/upc2711.pdf
+
+
 \end{thebibliography}
 
 \endgroup
 
 \vfill
 
+%\- \\[5cm]
 
-\appendix
+%\begin{appendices}
 
+%\includepdf[pages=1, scale=0.75 ,pagecommand=\appendices]{up2745tb.pdf}
+%\includepdf[pages=2, scale=0.75 ,pagecommand={}]{up2745tb.pdf}
+%\includepdf[pages=5-8, scale=0.75 ,pagecommand={}]{up2745tb.pdf}
 
+%\includepdf[pages=1-2, scale=0.75 ,pagecommand={}]{upc2711.pdf}
+%\includepdf[pages=5-6, scale=0.75 ,pagecommand={}]{upc2711.pdf}
+%\includepdf[pages=8-9, scale=0.75 ,pagecommand={}]{upc2711.pdf}
 
-
+%\end{appendices}
 
 
 

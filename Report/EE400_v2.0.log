@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  10 OCT 2018 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  13 OCT 2018 23:43
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -614,10 +614,65 @@ s
 \f@nch@O@olf=\skip59
 \f@nch@O@orf=\skip60
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen182
+\AM@pageheight=\dimen183
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box43
+\AM@global@opts=\toks43
+\AM@toc@title=\toks44
+\c@AM@survey=\count145
+\AM@templatesizebox=\box44
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(EE400_v2.0.aux)
+(EE400_v2.0.aux
+
+LaTeX Warning: Label `fig:2746top' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2746top' multiply defined.
+
+
+LaTeX Warning: Label `fig:2712top' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2712top' multiply defined.
+
+
+LaTeX Warning: Label `fig:274612top' multiply defined.
+
+
+LaTeX Warning: Label `fig:2746top' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2746top' multiply defined.
+
+
+LaTeX Warning: Label `fig:2712top' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2712top' multiply defined.
+
+
+LaTeX Warning: Label `fig:274612top' multiply defined.
+
+
+LaTeX Warning: Label `fig:tvac-cycle' multiply defined.
+
+)
 \openout1 = `EE400_v2.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
@@ -672,17 +727,17 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen182
-\scratchbox=\box43
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen183
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count146
+\scratchdimen=\dimen184
+\scratchbox=\box45
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen185
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks46
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -741,7 +796,16 @@ Package gensymb Warning: Not defining \micro.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count151
+\c@lstlisting=\count152
+\AtBeginShipoutBox=\box46
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 <odtuee.png, id=4, 648.4225pt x 354.32375pt>
 File: odtuee.png Graphic file (type png)
  <use odtuee.png>
@@ -770,18 +834,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-(EE400_v2.0.toc [1]
-Overfull \hbox (10.53629pt too wide) in paragraph at lines 34--34
+(EE400_v2.0.toc [1] [2]
+Overfull \hbox (10.53629pt too wide) in paragraph at lines 38--38
  [][] []\OT1/cmr/m/n/12 Tests & Sim-u-la-tions Us-ing Ther-mal Vac-uum Cham-ber
  (TVAC) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
  [][]  
  []
 
-[2])
+)
 \tf@toc=\write4
 \openout4 = `EE400_v2.0.toc'.
 
@@ -839,18 +903,18 @@ File: organizasyon4.png Graphic file (type png)
 
 <use organizasyon4.png>
 Package pdftex.def Info: organizasyon4.png used on input line 450.
-(pdftex.def)             Requested size: 389.8215pt x 480.28323pt.
- [9] [10] [11 <./organizasyon4.png>]
+(pdftex.def)             Requested size: 377.24702pt x 464.80109pt.
+ [9] [10 <./organizasyon4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
-[12]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
-[13] <radio_type.png, id=66, 1125.45468pt x 285.31593pt>
+[12] <radio_type.png, id=63, 1125.45468pt x 285.31593pt>
 File: radio_type.png Graphic file (type png)
  <use radio_type.png>
 Package pdftex.def Info: radio_type.png used on input line 512.
@@ -860,133 +924,234 @@ Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
-[14 <./radio_type.png>] <refsens.png, id=71, 405.76593pt x 60.225pt>
+<components.png, id=64, 998.22937pt x 663.98062pt>
+File: components.png Graphic file (type png)
+ <use components.png>
+Package pdftex.def Info: components.png used on input line 542.
+(pdftex.def)             Requested size: 314.37465pt x 209.10434pt.
+
+[13 <./radio_type.png>] <attn.png, id=69, 268.50313pt x 187.19937pt>
+File: attn.png Graphic file (type png)
+
+<use attn.png>
+Package pdftex.def Info: attn.png used on input line 557.
+(pdftex.def)             Requested size: 209.5831pt x 146.1206pt.
+ [14 <./components.png>]
+<refsens.png, id=73, 405.76593pt x 60.225pt>
 File: refsens.png Graphic file (type png)
-
-<use refsens.png>
-Package pdftex.def Info: refsens.png used on input line 545.
+ <use refsens.png>
+Package pdftex.def Info: refsens.png used on input line 582.
 (pdftex.def)             Requested size: 419.16621pt x 62.21529pt.
- <transnoise.png, id=72, 401.24907pt x 60.225pt>
+ [15 <./attn.png>] <resaudtest.png, id=77, 684.30656pt x 276.28218pt>
+File: resaudtest.png Graphic file (type png)
+ <use resaudtest.png>
+Package pdftex.def Info: resaudtest.png used on input line 593.
+(pdftex.def)             Requested size: 314.37465pt x 126.92693pt.
+
+[16 <./refsens.png> <./resaudtest.png>]
+<rfouttest.png, id=85, 4504.83pt x 1001.99344pt>
+File: rfouttest.png Graphic file (type png)
+ <use rfouttest.png>
+Package pdftex.def Info: rfouttest.png used on input line 618.
+(pdftex.def)             Requested size: 314.37465pt x 69.91736pt.
+
+<transnoise.png, id=86, 401.24907pt x 60.225pt>
 File: transnoise.png Graphic file (type png)
-
-<use transnoise.png>
-Package pdftex.def Info: transnoise.png used on input line 556.
+ <use transnoise.png>
+Package pdftex.def Info: transnoise.png used on input line 629.
 (pdftex.def)             Requested size: 419.16621pt x 62.9183pt.
- <c4fmmod.png, id=73, 404.26031pt x 62.48344pt>
+
+<c4fmmod.png, id=87, 404.26031pt x 62.48344pt>
 File: c4fmmod.png Graphic file (type png)
-
-<use c4fmmod.png>
-Package pdftex.def Info: c4fmmod.png used on input line 567.
+ <use c4fmmod.png>
+Package pdftex.def Info: c4fmmod.png used on input line 640.
 (pdftex.def)             Requested size: 419.16621pt x 64.78864pt.
- <elecaudio.png, id=74, 401.24907pt x 210.7875pt>
+ [17 <./rfouttest.png> <./transnoise.png> <./c4fmmod.png>]
+<elecaudio.png, id=94, 401.24907pt x 210.7875pt>
 File: elecaudio.png Graphic file (type png)
-
-<use elecaudio.png>
-Package pdftex.def Info: elecaudio.png used on input line 580.
+ <use elecaudio.png>
+Package pdftex.def Info: elecaudio.png used on input line 653.
 (pdftex.def)             Requested size: 419.16621pt x 220.21411pt.
- [15 <./refsens.png> <./transnoise.png> <./c4fmmod.png>]
-[16 <./elecaudio.png>] [17] <modfide.png, id=88, 402.00188pt x 57.96657pt>
+ [18 <./elecaudio.png>] [19] <modfide.png, id=103, 402.00188pt x 57.96657pt>
 File: modfide.png Graphic file (type png)
 
 <use modfide.png>
-Package pdftex.def Info: modfide.png used on input line 655.
+Package pdftex.def Info: modfide.png used on input line 728.
 (pdftex.def)             Requested size: 419.16621pt x 60.44124pt.
- [18 <./modfide.png>]
-<ulak.png, id=96, 1151.80313pt x 608.2725pt>
+ [20 <./modfide.png>]
+<ulak.png, id=108, 1151.80313pt x 608.2725pt>
 File: ulak.png Graphic file (type png)
  <use ulak.png>
-Package pdftex.def Info: ulak.png used on input line 674.
+Package pdftex.def Info: ulak.png used on input line 747.
 (pdftex.def)             Requested size: 419.16621pt x 221.36327pt.
- [19 <./ulak.png>]
-<tvac.jpg, id=101, 4946.48pt x 3292.3pt>
+ [21 <./ulak.png>]
+<tvac.jpg, id=113, 4946.48pt x 3292.3pt>
 File: tvac.jpg Graphic file (type jpg)
  <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 700.
+Package pdftex.def Info: tvac.jpg used on input line 773.
 (pdftex.def)             Requested size: 377.24702pt x 251.08147pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20] <tvac-cycle.png, id=106, 1385.175pt x 555.57562pt>
+[22] <tvac-cycle.png, id=118, 1385.175pt x 555.57562pt>
 File: tvac-cycle.png Graphic file (type png)
  <use tvac-cycle.png>
-Package pdftex.def Info: tvac-cycle.png used on input line 718.
+Package pdftex.def Info: tvac-cycle.png used on input line 791.
 (pdftex.def)             Requested size: 419.16621pt x 168.1236pt.
 
-[21 <./tvac.jpg>] [22 <./tvac-cycle.png>] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 828--830
-\OT1/cmr/m/n/12 https://www.radio-electronics.com/info/rf-technology-design/att
-enuators/rf-
- []
+[23 <./tvac.jpg>] [24 <./tvac-cycle.png>]
+<2746_ust.png, id=126, 254.45062pt x 287.57437pt>
+File: 2746_ust.png Graphic file (type png)
+ <use 2746_ust.png>
+Package pdftex.def Info: 2746_ust.png used on input line 816.
+(pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
 
+<2712_ust.png, id=127, 254.45062pt x 287.57437pt>
+File: 2712_ust.png Graphic file (type png)
+ <use 2712_ust.png>
+Package pdftex.def Info: 2712_ust.png used on input line 821.
+(pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
 
-Underfull \hbox (badness 2343) in paragraph at lines 831--833
-[]\OT1/cmr/m/n/12 Attenuators, (2016, De-cem-ber 03), Re-trieved Au-gust 28, 20
-18, from
- []
+<2746_cct.png, id=128, 274.77657pt x 368.87813pt>
+File: 2746_cct.png Graphic file (type png)
+ <use 2746_cct.png>
+Package pdftex.def Info: 2746_cct.png used on input line 835.
+(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
 
+<2712_cct.png, id=129, 274.77657pt x 368.87813pt>
+File: 2712_cct.png Graphic file (type png)
+ <use 2712_cct.png>
+Package pdftex.def Info: 2712_cct.png used on input line 840.
+(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
 
-Underfull \hbox (badness 2426) in paragraph at lines 839--841
+<2746_perf.png, id=130, 353.82187pt x 361.35pt>
+File: 2746_perf.png Graphic file (type png)
+ <use 2746_perf.png>
+Package pdftex.def Info: 2746_perf.png used on input line 854.
+(pdftex.def)             Requested size: 125.75113pt x 128.42625pt.
+
+<2712_perf.png, id=131, 353.82187pt x 361.35pt>
+File: 2712_perf.png Graphic file (type png)
+ <use 2712_perf.png>
+Package pdftex.def Info: 2712_perf.png used on input line 859.
+(pdftex.def)             Requested size: 125.75113pt x 128.42625pt.
+ [25 <./2746_ust.png> <./2712_ust.png> <./2746_cct.png> <./2712_cct.png>]
+<zpack.png, id=139, 929.72343pt x 403.5075pt>
+File: zpack.png Graphic file (type png)
+ <use zpack.png>
+Package pdftex.def Info: zpack.png used on input line 873.
+(pdftex.def)             Requested size: 419.16621pt x 181.9215pt.
+
+<ermetzd2.png, id=140, 694.84593pt x 358.33875pt>
+File: ermetzd2.png Graphic file (type png)
+ <use ermetzd2.png>
+Package pdftex.def Info: ermetzd2.png used on input line 896.
+(pdftex.def)             Requested size: 419.16621pt x 216.16408pt.
+ [26 <./2746_perf.png> <./2712_perf.png> <./zpack.png>] [27 <./ermetzd2.png>]
+Underfull \hbox (badness 2426) in paragraph at lines 1000--1002
 []\OT1/cmr/m/n/12 Jenner, L. (2017, May 31), NASA's Apollo-Era Test Cham-ber No
 w
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 839--841
+Underfull \hbox (badness 1371) in paragraph at lines 1000--1002
 \OT1/cmr/m/n/12 James Webb Space Tele-scope Ready, Re-trieved Au-gust 24, 2018,
  from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--841
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1002
 \OT1/cmr/m/n/12 https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era-test
 -chamber-
  []
 
-
-Underfull \hbox (badness 2351) in paragraph at lines 845--848
+[28]
+Underfull \hbox (badness 2351) in paragraph at lines 1006--1008
 []\OT1/cmr/m/n/12 Project 25, (2018, Septem-ber 20), Re-trieved Oc-to-ber 2, 20
 18, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--851
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1011
 []\OT1/cmr/m/n/12 ASELSAN About Us, (n.d.), Re-trieved July 27, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1014
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/cpb1/Brochures/96
 61[]HF/9661
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--857
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
 []\OT1/cmr/m/n/12 ULAK Base Sta-tion, (n.d.), Re-trieved Au-gust 4, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--857
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/public-safety-com
 munication-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--857
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
 \OT1/cmr/m/n/12 systems/mobile-communication-technologies-ulak-4-5g-5g/ulak-com
 mercial-
  []
 
-[24] (EE400_v2.0.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
+[]\OT1/cmr/m/n/12 Rohde-Schwarz Spec-trum Anal-yser, (n.d.), Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
+\OT1/cmr/m/n/12 trieved Au-gust 4, 2018, from https://cdn.rohde-
+ []
+
+
+Overfull \hbox (55.72466pt too wide) in paragraph at lines 1022--1024
+\OT1/cmr/m/n/12 from http://rfmw.em.keysight.com/mod/pdf/solutions[]radio[]test
+[]ref[]soln[]presentation.pdf 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+[]\OT1/cmr/m/n/12 Land Mo-bile Ra-dio Transceiver Per-for-mance Rec-om-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+\OT1/cmr/m/n/12 da-tions , (2010,Jan-uary), Re-trieved Au-gust 4, 2018, from
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+[]\OT1/cmr/m/n/12 ERNI Er-met ZD-plus Back-plane Con-nec-tors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+\OT1/cmr/m/n/12 , (n.d.) , Re-trieved Au-gust 27, 2018, from
+ []
+
+
+Overfull \hbox (41.41266pt too wide) in paragraph at lines 1033--1034
+\OT1/cmr/m/n/12 https://www.erni.com/fileadmin/user[]upload/Downloads/Products/
+ERmet[]ZD/ERNI-
+ []
+
+[30] (EE400_v2.0.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18635 strings out of 493333
- 337063 string characters out of 3136576
- 419455 words of memory out of 3000000
- 21779 multiletter control sequences out of 15000+200000
+ 19407 strings out of 493333
+ 349806 string characters out of 3136576
+ 434453 words of memory out of 3000000
+ 22518 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,94p,1134b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1000,9 +1165,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.0.pdf (25 pages, 4647724 bytes).
+Output written on EE400_v2.0.pdf (31 pages, 6642636 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
