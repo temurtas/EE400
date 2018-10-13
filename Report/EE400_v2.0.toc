@@ -21,23 +21,24 @@
 \contentsline {subsection}{\numberline {4.1}Electrical \& Mechanical Tests at the Environmental Tests Laboratory }{13}
 \contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{13}
 \contentsline {subsubsection}{\numberline {4.1.2}Test Devices}{14}
-\contentsline {paragraph}{\numberline {4.1.2.1}Attenuators}{14}
-\contentsline {subsubsection}{\numberline {4.1.3}Electrical Configuration/Performance Tests}{15}
-\contentsline {paragraph}{\numberline {4.1.3.1}Reference Sensitivity Test}{15}
+\contentsline {paragraph}{\numberline {4.1.2.1}Spectrum Analyzer}{14}
+\contentsline {paragraph}{\numberline {4.1.2.2}Attenuators}{15}
+\contentsline {subsubsection}{\numberline {4.1.3}Electrical Configuration/Performance Tests}{16}
+\contentsline {paragraph}{\numberline {4.1.3.1}Reference Sensitivity Test}{16}
 \contentsline {paragraph}{\numberline {4.1.3.2}Residual Audio Noise Ratio Test}{16}
 \contentsline {paragraph}{\numberline {4.1.3.3}RF Output Power Test}{17}
-\contentsline {paragraph}{\numberline {4.1.3.4}Transmitter FM Hum/Noise Ratio Test}{17}
-\contentsline {paragraph}{\numberline {4.1.3.5}C4FM Modulation }{17}
-\contentsline {paragraph}{\numberline {4.1.3.6}Electrical Audio Performance Test}{18}
-\contentsline {paragraph}{\numberline {4.1.3.7}Modulation Fidelity Test}{18}
+\contentsline {paragraph}{\numberline {4.1.3.4}Transmitter FM Hum/Noise Ratio Test}{18}
+\contentsline {paragraph}{\numberline {4.1.3.5}C4FM Modulation }{18}
+\contentsline {paragraph}{\numberline {4.1.3.6}Electrical Audio Performance Test}{19}
+\contentsline {paragraph}{\numberline {4.1.3.7}Modulation Fidelity Test}{19}
 \contentsline {subparagraph}{\numberline {4.1.3.7.1}C4FM Modulation}{19}
-\contentsline {subparagraph}{\numberline {4.1.3.7.2}Frequency Error}{19}
-\contentsline {subsubsection}{\numberline {4.1.4}ULAK 4.5G Macrocell Base Station}{21}
-\contentsline {subsection}{\numberline {4.2}Outer Space Simulations \& Tests using TVAC }{22}
-\contentsline {subsubsection}{\numberline {4.2.1}Thermal Vacuum Chamber (TVAC) }{22}
-\contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{22}
-\contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{24}
-\contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{25}
-\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{26}
-\contentsline {section}{\numberline {5}Conclusion}{28}
-\contentsline {section}{\numberline {6}References}{29}
+\contentsline {subparagraph}{\numberline {4.1.3.7.2}Frequency Error}{20}
+\contentsline {subsubsection}{\numberline {4.1.4}ULAK 4.5G Macrocell Base Station}{22}
+\contentsline {subsection}{\numberline {4.2}Outer Space Simulations \& Tests using TVAC }{23}
+\contentsline {subsubsection}{\numberline {4.2.1}Thermal Vacuum Chamber (TVAC) }{23}
+\contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{23}
+\contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{25}
+\contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{26}
+\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{27}
+\contentsline {section}{\numberline {5}Conclusion}{29}
+\contentsline {section}{\numberline {6}References}{30}

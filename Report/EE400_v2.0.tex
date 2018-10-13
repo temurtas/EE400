@@ -122,7 +122,7 @@
             {\normalfont\normalsize\bfseries}}
 \makeatother
 \setcounter{secnumdepth}{5} % how many sectioning levels to assign numbers to
-\setcounter{tocdepth}{5}    % how many sectioning levels to show in ToC
+\setcounter{tocdepth}{6}    % how many sectioning levels to show in ToC
 
 
 
@@ -356,7 +356,6 @@
 
 \subsubsection{Vision}
 \- \indent
-
 	To be a reliable, competitively preferred, environment-friendly and human conscious technology firm which preserves its sustainable growth in the global market via the values created for stakeholders, as well as serving its establishment purposes\cite{aselsan}.
 
 \subsubsection{Mission}
@@ -469,7 +468,6 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	
 \subsubsection{Electrostatic Discharge (ESD) Education }
 \- \indent
-
 	Electrostatic discharge (ESD) is the sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown. A buildup of static electricity can be caused by tribocharging or by electrostatic induction. The ESD occurs when differently-charged objects are brought close together or when the dielectric between them breaks down, often creating a visible spark. \textbf{[2]}
 
 	A very casual example of electrostatic discharge can be given as lighting. However, not all ESD events are not as loudly or large-scale as lightnings. The less dramatic forms  may be neither seen nor heard, but they can still be large enough to cause damage to sensitive electronic devices. 
@@ -480,7 +478,6 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \subsubsection{Occupational Safety and Health (OSH) Education}
 \- \indent
-
 	ASELSAN as a company in Turkey is required to satisfy the conditions deternmined by the 6331 number Occupational Safety and Health (OSH) Education Law. 
 	
 	Occupational safety and health (OSH), also commonly referred to as occupational health and safety (OHS), is a multidisciplinary field concerned with the safety, health, and welfare of people at work. These terms also refer to the goals of this field, so their use in the sense of this article was originally an abbreviation of occupational safety and health program/department etc.\textbf{[3]}
@@ -499,11 +496,11 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \subsection{Electrical \& Mechanical Tests at the Environmental Tests Laboratory  }
 \- \indent
-	After my arrivel to the Environmental Test Laboratory, I started observing the test mainly done on ASELSAN 9661 series V/UHF radio. Before getting into the details for the electrical test, I will give some information about the device itself.   
+	After my arrival to the Environmental Test Laboratory, I started observing the test mainly done on ASELSAN 9661 series V/UHF radio. Before getting into the details for the electrical test, I will give some information about the device itself.   
 	
 \subsubsection{ASELSAN 9661 Radio Family}
 \- \indent	
-	The 9661 HF Radios are a software defined radio covering the HF 1.6-30MHz band. Software ins,de the radio supports various radio waveforms and EPM techniques. Beyond line of sight communication is made possible based on the HF technology via use of NATO STANAGs and Military Standards\cite{9661}. 
+	The 9661 HF Radios are a software defined radio covering the HF 1.6-30MHz band. Software inside the radio supports various radio waveforms and EPM techniques. Beyond line of sight communication is made possible based on the HF technology via use of NATO STANAGs and Military Standards\cite{9661}. 
 
 
 \begin{figure}[H]
@@ -513,7 +510,7 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\caption{\label{fig:radtyp}ASELSAN 9661 Radio Series\cite{9661} }
 \end{figure}
 
-	 While voice and data can be transmitted over a preset fixed frequency, it is also possible to employ an Automatic Channel Selection mechanism which determines the usable frequency for communication.
+	 While voice and data can be transmitted over a pre-set fixed frequency, it is also possible to employ an Automatic Channel Selection mechanism which determines the usable frequency for communication.
 
 	
 
@@ -534,7 +531,7 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 
 \subsubsection{Test Devices}
 \- \indent
-
+	Just before going into details about some of the tests conducted at the laboratory, I will give brief explanation about the devices used as tests are conducted. General test devices used can be seen at \textit{Figure~\ref{fig:components}}.
 
 \begin{figure}[H]
 	\center
@@ -543,7 +540,15 @@ The organizational chart of ASELSAN can be seen in \textit{Figure~\ref{fig:orgc}
 	\caption{\label{fig:components}General Test Devices \cite{9661,specan,keysight,mult}}
 \end{figure}
 
-\paragraph{Attenuators} \- \\
+\paragraph{Spectrum Analyzer} 
+\- \indent
+	Spectrum analyzer was one of the most unfamiliar devices for me during the test processes. Thus, I would like to give some information about the device itself. A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. The input signal that a spectrum analyzer measures is electrical; however, spectral compositions of other signals, such as acoustic pressure waves and optical light waves, can be considered through the use of an appropriate transducer. 
+
+	By analyzing the spectra of electrical signals, dominant frequency, power, distortion, harmonics, bandwidth, and other spectral components of a signal can be observed that are not easily detectable in time domain waveforms. These parameters are useful in the characterization of electronic devices, such as wireless transmitters.
+
+	The display of a spectrum analyzer has frequency on the horizontal axis and the amplitude displayed on the vertical axis. To the casual observer, a spectrum analyzer looks like an oscilloscope and, in fact, some lab instruments can function either as an oscilloscope or a spectrum analyzer. An example for the analyzer can also be seen at \textit{Figure~\ref{fig:components}}.
+
+\paragraph{Attenuators} 
 \- \indent
 	RF attenuators are a universal building block within the RF design arena. RF attenuators can be fixed, switched or even continuously variable.
 
@@ -572,9 +577,9 @@ RF attenuators are used widely within RF circuits for a variety of reasons. Fort
 
 \paragraph{Reference Sensitivity Test}
 \- \indent
- The Reference sensitivity is the level of receiver input signal at a specified frequency with specified modulation that will result in the standard BER (Bit Error Rate) at the receiver detector according to TIA Standart called Project 25 \cite{P25}.
+	The Reference sensitivity is the level of receiver input signal at a specified frequency with specified modulation that will result in the standard BER (Bit Error Rate) at the receiver detector according to TIA Standart called Project 25 \cite{P25}.
 
-	To measure the reference sensitivity, test set-up at the \textbf{Figure~\ref{fig:refsens}} must be established. After adjusting the input level to achieve   standard bit error rate at the output when measured at least a 250 ms time interval, the reference sensitivity will be signal level at the RF Signal Generator.
+	To measure the reference sensitivity, test set-up at the \textit{Figure~\ref{fig:refsens}} must be established. After adjusting the input level to achieve   standard bit error rate at the output when measured at least a 250 ms time interval, the reference sensitivity will be signal level at the RF Signal Generator.
 
 \begin{figure}[H]
 	\center
@@ -594,7 +599,7 @@ RF attenuators are used widely within RF circuits for a variety of reasons. Fort
 	\caption{\label{fig:resaudtest}Residual Audio Noise Ratio Test System Diagram }
 \end{figure}
 
-	To measure the residual audio noise ratio, test set-up at the \textbf{Figure~\ref{fig:resaudtest}} must be established. Firstly, while applying a standard input signal at the standard input signal level to the receiver input terminals, the receiver for rated audio frequency output power should be adjusted. Then, the audio output level is recorded as $V_{Ref}$.
+	To measure the residual audio noise ratio, test set-up at the \textit{Figure~\ref{fig:resaudtest}} must be established. Firstly, while applying a standard input signal at the standard input signal level to the receiver input terminals, the receiver for rated audio frequency output power should be adjusted. Then, the audio output level is recorded as $V_{Ref}$.
 	
 	After doing so, the input signal should be changed to the standard silence test pattern, in other words no signal should be supplied to the test system. The audio output level at this scenario is recorded as $V_{S}$.
 	
@@ -609,7 +614,7 @@ $$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load
 \- \indent
 	The RF output power of a transmitter for this service is the power available at the output terminals of the transmitter when the output terminals are connected to the standard transmitter load according to Project 25 Standart\cite{P25}..
 
-	To measure the RF output power, test set-up at the \textbf{Figure~\ref{fig:rfouttest}} must be established
+	To measure the RF output power, test set-up at the \textit{Figure~\ref{fig:rfouttest}} must be established
 	
 	
 \begin{figure}[H]
@@ -656,14 +661,12 @@ $$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load
 
 \paragraph{Modulation Fidelity Test}
 \- \indent
-
 	Modulation fidelity is defined as the degree of closeness to which the modulation follows the desired ideal theoretical modulation by the P25(TIA/EIA-102) standard\cite{fidelity}. This is a very important measurement for P25 C4FM modulation as it is an indication of the quality of the signal being transmitted by the radio. Before we can understand the
 modulation fidelity measurement, we will need to look at the type
 of modulation that this measurement analyses.
 
 \subparagraph{C4FM Modulation}
 \- \indent
-
 	P25 uses a type of modulation called C4FM, which is an acronym for “compatible 4 level frequency modulation”\cite{fidelity}. Basically, it is a special type of 4FSK modulation developed for the TIA/EIA-102 standard. P25 uses this type of modulation to transmit digital information in the form of digital “1’s” and “0’s”. 4FSK uses four different frequency “states” or “deviation points” to indicate a “symbol”. This symbol then equates to 2 bits of data as one of the four frequency shifts. The frequency shifts that correspond to each 2 bits of data are shown in \textit{Table~\ref{tab:modfide}}.
 	
 \begin{table}[H]
@@ -688,7 +691,6 @@ of modulation that this measurement analyses.
 
 \subparagraph{Frequency Error}
 \- \indent
-
 	The first value that we can calculate from the measured deviation of each of the symbols is the frequency error. Frequency error in this measurement refers to RF carrier frequency error.
 		
 	To understand this, think about the relationship between the four frequency deviations used in C4FM and RF carrier frequency error. A carrier frequency error would tend to shift all four of the deviations by the same amount. A positive frequency error would move all four of the deviation points in the positive direction. Let’s use a real world scenario for our example. In Chart 2.0 below, a 100 Hz frequency error might give the following results:
@@ -709,7 +711,7 @@ of modulation that this measurement analyses.
   \label{tab:modfide2}
 \end{table}
 
-The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
+	The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
 	
 	The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
 	
@@ -780,7 +782,7 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 	There are two thermal vacuum chambers with different capacities in the ASELSAN HBT Facilities. They are used mainly for the outer space simulation tests of the electronics parts of the TURKSAT 6A Project. The chambers can also be used by other project partners such as TAI and TURKSAT if needed.
 	
 \subsubsection{Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }
-
+\- \indent
 	To simulate the outer space, the pressure in the chamber must be reduced to $10^{-5}~mBar$ or below to satisfy the requirements for the test. This was done by pulling the oxygen and other major atmospheric gases and pumping liquid nitrogen to the system to push leftover gases. Liquid Nitrogen is also used to reach the required minimum temperature for the test.
 	
 	According to the device under test's physical properties, two ways are used to reach the desired maximum temperature. One of them is using spacial thermal plates below the device. If the device should not be in contact with directly heat source second method for heating can be used.  That is to use the infrared heaters inside the chambers.
@@ -798,7 +800,6 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 
 \subsection{Research on Components of ULAK 4.5G Base Station  }
 \- \indent
-
 	Mainly on the second half of my internship, I also spent my time at the department itself besides the laboratories. In this part of my summer practice, I was responsible for making research on the components of the ULAK Base Station for possible upgrade for the device. Due to regulations, I will give some examples about the work done at this part of summer practice. 
 
 
@@ -953,9 +954,8 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 
 
 \section{Conclusion}
-
-\-
-\indent I completed my summer practice in ASELSAN A.Ş.(ASELSAN Electronics Industry and Ticaret A.Ş.) in supervision of Pınar Kırıkkanat, an electronics engineer in ASELSAN, in Yenimahalle/Ankara. It was quite experiential time for me. Throughout my summer practice, I learned many things about professional work life. 
+\-\indent 
+	I completed my summer practice in ASELSAN A.Ş.(ASELSAN Electronics Industry and Ticaret A.Ş.) in supervision of Pınar Kırıkkanat, an electronics engineer in ASELSAN, in Yenimahalle/Ankara. It was quite experiential time for me. Throughout my summer practice, I learned many things about professional work life. 
 
 	Firstly, I understodd the importance of mandatory educations like occupational safety and health education thanks to given educations by ASELSAN. After the educations, I was  sent to my division, where I performed my summer practice.
 	
