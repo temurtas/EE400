@@ -39,6 +39,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{23}
 \contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{25}
 \contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{26}
-\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{27}
+\contentsline {paragraph}{\numberline {4.3.1.1}NEC UPC2746TB vs NEC UPC 2712TB}{27}
+\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{28}
 \contentsline {section}{\numberline {5}Conclusion}{29}
 \contentsline {section}{\numberline {6}References}{30}

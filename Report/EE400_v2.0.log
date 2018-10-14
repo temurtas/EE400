@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  14 OCT 2018 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  14 OCT 2018 16:04
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -655,21 +655,6 @@ LaTeX Warning: Label `sub@fig:2712top' multiply defined.
 LaTeX Warning: Label `fig:274612top' multiply defined.
 
 
-LaTeX Warning: Label `fig:2746top' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:2746top' multiply defined.
-
-
-LaTeX Warning: Label `fig:2712top' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:2712top' multiply defined.
-
-
-LaTeX Warning: Label `fig:274612top' multiply defined.
-
-
 LaTeX Warning: Label `fig:tvac-cycle' multiply defined.
 
 )
@@ -989,7 +974,7 @@ Package pdftex.def Info: ulak.png used on input line 749.
 File: tvac.jpg Graphic file (type jpg)
  <use tvac.jpg>
 Package pdftex.def Info: tvac.jpg used on input line 775.
-(pdftex.def)             Requested size: 377.24702pt x 251.08147pt.
+(pdftex.def)             Requested size: 419.16621pt x 278.96266pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1004,140 +989,145 @@ Package pdftex.def Info: tvac-cycle.png used on input line 793.
 <2746_ust.png, id=129, 254.45062pt x 287.57437pt>
 File: 2746_ust.png Graphic file (type png)
  <use 2746_ust.png>
-Package pdftex.def Info: 2746_ust.png used on input line 817.
+Package pdftex.def Info: 2746_ust.png used on input line 820.
 (pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
 
 <2712_ust.png, id=130, 254.45062pt x 287.57437pt>
 File: 2712_ust.png Graphic file (type png)
  <use 2712_ust.png>
-Package pdftex.def Info: 2712_ust.png used on input line 822.
+Package pdftex.def Info: 2712_ust.png used on input line 825.
 (pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
 
-<2746_cct.png, id=131, 274.77657pt x 368.87813pt>
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
+
+ []
+
+[26 <./2746_ust.png> <./2712_ust.png>]
+<2746_cct.png, id=136, 274.77657pt x 368.87813pt>
 File: 2746_cct.png Graphic file (type png)
  <use 2746_cct.png>
-Package pdftex.def Info: 2746_cct.png used on input line 836.
+Package pdftex.def Info: 2746_cct.png used on input line 844.
 (pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
 
-<2712_cct.png, id=132, 274.77657pt x 368.87813pt>
+<2712_cct.png, id=137, 274.77657pt x 368.87813pt>
 File: 2712_cct.png Graphic file (type png)
  <use 2712_cct.png>
-Package pdftex.def Info: 2712_cct.png used on input line 841.
+Package pdftex.def Info: 2712_cct.png used on input line 849.
 (pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
 
-<2746_perf.png, id=133, 353.82187pt x 361.35pt>
+<2746_perf.png, id=138, 353.82187pt x 361.35pt>
 File: 2746_perf.png Graphic file (type png)
  <use 2746_perf.png>
-Package pdftex.def Info: 2746_perf.png used on input line 855.
+Package pdftex.def Info: 2746_perf.png used on input line 863.
 (pdftex.def)             Requested size: 125.75113pt x 128.42625pt.
 
-<2712_perf.png, id=134, 353.82187pt x 361.35pt>
+<2712_perf.png, id=139, 353.82187pt x 361.35pt>
 File: 2712_perf.png Graphic file (type png)
  <use 2712_perf.png>
-Package pdftex.def Info: 2712_perf.png used on input line 860.
+Package pdftex.def Info: 2712_perf.png used on input line 868.
 (pdftex.def)             Requested size: 125.75113pt x 128.42625pt.
- [26 <./2746_ust.png> <./2712_ust.png> <./2746_cct.png> <./2712_cct.png>]
-<zpack.png, id=142, 929.72343pt x 403.5075pt>
+
+<zpack.png, id=140, 929.72343pt x 403.5075pt>
 File: zpack.png Graphic file (type png)
  <use zpack.png>
-Package pdftex.def Info: zpack.png used on input line 874.
+Package pdftex.def Info: zpack.png used on input line 882.
 (pdftex.def)             Requested size: 419.16621pt x 181.9215pt.
-
-<ermetzd2.png, id=143, 694.84593pt x 358.33875pt>
+ [27 <./2746_cct.png> <./2712_cct.png> <./2746_perf.png> <./2712_perf.png>]
+<ermetzd2.png, id=148, 694.84593pt x 358.33875pt>
 File: ermetzd2.png Graphic file (type png)
  <use ermetzd2.png>
-Package pdftex.def Info: ermetzd2.png used on input line 897.
+Package pdftex.def Info: ermetzd2.png used on input line 905.
 (pdftex.def)             Requested size: 419.16621pt x 216.16408pt.
- [27 <./2746_perf.png> <./2712_perf.png> <./zpack.png>] [28 <./ermetzd2.png>]
-Underfull \hbox (badness 2426) in paragraph at lines 1000--1002
+ [28 <./zpack.png> <./ermetzd2.png>]
+Underfull \hbox (badness 2426) in paragraph at lines 1008--1010
 []\OT1/cmr/m/n/12 Jenner, L. (2017, May 31), NASA's Apollo-Era Test Cham-ber No
 w
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1000--1002
+Underfull \hbox (badness 1371) in paragraph at lines 1008--1010
 \OT1/cmr/m/n/12 James Webb Space Tele-scope Ready, Re-trieved Au-gust 24, 2018,
  from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1002
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1010
 \OT1/cmr/m/n/12 https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era-test
 -chamber-
  []
 
 [29]
-Underfull \hbox (badness 2351) in paragraph at lines 1006--1008
+Underfull \hbox (badness 2351) in paragraph at lines 1014--1016
 []\OT1/cmr/m/n/12 Project 25, (2018, Septem-ber 20), Re-trieved Oc-to-ber 2, 20
 18, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1009--1011
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1019
 []\OT1/cmr/m/n/12 ASELSAN About Us, (n.d.), Re-trieved July 27, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1014
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1022
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/cpb1/Brochures/96
 61[]HF/9661
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1025
 []\OT1/cmr/m/n/12 ULAK Base Sta-tion, (n.d.), Re-trieved Au-gust 4, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1025
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/public-safety-com
 munication-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1025
 \OT1/cmr/m/n/12 systems/mobile-communication-technologies-ulak-4-5g-5g/ulak-com
 mercial-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1029
 []\OT1/cmr/m/n/12 Rohde-Schwarz Spec-trum Anal-yser, (n.d.), Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1029
 \OT1/cmr/m/n/12 trieved Au-gust 4, 2018, from https://cdn.rohde-
  []
 
 
-Overfull \hbox (55.72466pt too wide) in paragraph at lines 1022--1024
+Overfull \hbox (55.72466pt too wide) in paragraph at lines 1030--1032
 \OT1/cmr/m/n/12 from http://rfmw.em.keysight.com/mod/pdf/solutions[]radio[]test
 []ref[]soln[]presentation.pdf 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 []\OT1/cmr/m/n/12 Land Mo-bile Ra-dio Transceiver Per-for-mance Rec-om-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 \OT1/cmr/m/n/12 da-tions , (2010,Jan-uary), Re-trieved Au-gust 4, 2018, from
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
 []\OT1/cmr/m/n/12 ERNI Er-met ZD-plus Back-plane Con-nec-tors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
 \OT1/cmr/m/n/12 , (n.d.) , Re-trieved Au-gust 27, 2018, from
  []
 
 
-Overfull \hbox (41.41266pt too wide) in paragraph at lines 1033--1034
+Overfull \hbox (41.41266pt too wide) in paragraph at lines 1041--1042
 \OT1/cmr/m/n/12 https://www.erni.com/fileadmin/user[]upload/Downloads/Products/
 ERmet[]ZD/ERNI-
  []
@@ -1148,10 +1138,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19407 strings out of 493333
- 349806 string characters out of 3136576
- 434452 words of memory out of 3000000
- 22518 multiletter control sequences out of 15000+200000
+ 19412 strings out of 493333
+ 349886 string characters out of 3136576
+ 434453 words of memory out of 3000000
+ 22523 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,94p,1134b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1165,7 +1155,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.0.pdf (32 pages, 6624817 bytes).
+Output written on EE400_v2.0.pdf (32 pages, 6656976 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -772,7 +772,7 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 \begin{figure}[h!]
 	\center
 	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=0.9\unitlength]{tvac}
+	\includegraphics[width=1.0\unitlength]{tvac}
 	\caption{\label{fig:tvac}An Example Thermal Vacuum Chamber \cite{tvac}}
 \end{figure}
 
@@ -807,7 +807,10 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 \- \indent
 	As I spent my time at department itself, I was responsible for two types of component research. One type of these researches was to identify the problem on the newly arrived printed circuit boards for the base station. Since I was not permitted to take the photographs of these components, I will give some details without actual photos for the components. 	
 	
-	Two give a spesific example, I will give detail about one of this problems. 
+	Two give a specific example, I will give detail about one of this problems. In one part of the latest arrived printed circuit boards that is produced by the subcontractor, a very minor variation was not noticed until it came to ASELSAN. When I examine the PCB closely, I noticed the difference in the small IC. On the top of the IC, it was labeled as \textbf{C1H} instead of \textbf{C1R}. Top views of both of these components can be seen at \textit{Figures~\ref{fig:2746top}~and~\ref{fig:2712top}} respectively.  
+	 
+	
+
 	
 \begin{figure}[H]
 	\setlength{\unitlength}{\textwidth} 
@@ -825,8 +828,13 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 \caption{\label{fig:274612top} Top View of the UPC2746TB \& UPC2712TB ICs  \cite{2746,2712} }
 \end{figure}	
 
+In the following subsection, I will mention critical differences between these ICs in detail and explain why the circuit was not functioned properly due to this mistake.
 
+\-\\[2.5cm]
 
+\paragraph{NEC UPC2746TB vs NEC UPC 2712TB}
+\- \indent
+	Although both ICs are Silcom MMIC Wideband Amplifiers manufactured using same technologies, UPC2712TB is designed for use as buffer amplifiers in DBS tuners\cite{2712} whereas the UPC2746TB is designed for use as buffer amplifiers in mobile communication applications such as Celular ,PCS, Cordless handsets and WLAN transceivers\cite{2746}. However, since both ICs are housed in a 6-pin super minimold (SOT-363) package, it is easy to make mistakes using one instead of another.
 
 \begin{figure}[H]
 	\setlength{\unitlength}{\textwidth} 
@@ -853,14 +861,14 @@ With the development of 4.5G Communication Systems, it is aimed to meet the need
 	\begin{subfigure}{.5\textwidth}
   		\centering
   		\includegraphics[width=0.3\unitlength]{2746_perf}
-  		\caption{\label{fig:2746top}Performance Curve for the 2746TB }
+  		\caption{\label{fig:2746perf}Performance Curve for the 2746TB }
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
   		\centering
 		\includegraphics[width=0.3\unitlength]{2712_perf}
-  		\caption{\label{fig:2712top}Top View of the UPC2712TB IC}
+  		\caption{\label{fig:2712perf}Top View of the UPC2712TB IC}
 	\end{subfigure}
-\caption{\label{fig:274612top} Typical Performance Curves for the UPC2746TB \& UPC2712TB ICs   }
+\caption{\label{fig:274612perf} Typical Performance Curves for the UPC2746TB \& UPC2712TB ICs   }
 \end{figure}	
 
 
