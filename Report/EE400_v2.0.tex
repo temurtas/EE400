@@ -800,7 +800,7 @@ $$	\sum_{k=MIN}^{k=MAX} {|e_K|}^2 = \sum_{k=MIN}^{k=MAX} {|\frac{z_K - C_O}{C_L}
 
 
 
-\subsection{Tests on ULAK 4.5G Base Station  }
+\subsubsection{Tests on ULAK 4.5G Base Station  }
 \- \indent
 	Besides 9661 Series Radios, multiple radio hand-sets and the 4.5G Base Station were tested at Environmental Test Laboratory. Similar electrical tests applied to the 9661 radio series were partially applied to the these base stations. Since I was not able spent enough time on the tests of the base station, I will quickly introduce the base station itself and pass the next section. 
 
@@ -886,7 +886,7 @@ $$	\sum_{k=MIN}^{k=MAX} {|e_K|}^2 = \sum_{k=MIN}^{k=MAX} {|\frac{z_K - C_O}{C_L}
 \caption{\label{fig:274612top} Top View of the UPC2746TB \& UPC2712TB ICs  \cite{2746,2712} }
 \end{figure}	
 
-In the following subsection, I will mention critical differences between these ICs in detail and explain why the circuit was not functioned properly due to this mistake.
+	In the following subsection, I will mention critical differences between these ICs in detail and explain why the circuit was not functioned properly due to this mistake.
 
 \-\\[2.5cm]
 
@@ -978,6 +978,10 @@ In the following subsection, I will mention critical differences between these I
   \label{tab:reccomb}
 \end{table}
 
+	Another important difference between these components is about their performance curves ,or in other words, gain vs frequency plots. As can be seen from the \textit{Figures~\ref{fig:2746perf} and \ref{fig:2712perf}} respectively, the gains at high frequencies such as 3 GHz differs significantly even though the gain at lower frequencies such as 0.3 GHz are comparable. 
+	
+	For that reasons, it was not possible to use the newly arrived printed circuit boards, and they were returned to the subcontractor.
+
 
 \begin{figure}[H]
 	\setlength{\unitlength}{\textwidth} 
@@ -998,12 +1002,20 @@ In the following subsection, I will mention critical differences between these I
 
 \subsubsection{Alternate Components}
 \- \indent
+	As I mentioned earlier, I was responsible for two types of component research at the department itself. One type of these researches was to identify the problem on the newly arrived printed circuit and the second type of these researches was to search and find possible components to replace the existing one. Although these components mostly worked perfectly, they needed to be replaced due to other factors. 	
 	
-
+	In the following subsection, I will give brief detail about one of these possible changes.
+	
+\paragraph{Change of Backplane Connector}
+\- \indent
+	Due to some supply problems of the backplane connector used to connect the motherboard and the daughter-board of base station, the production of the base station was not at the desired level. For that reasons, I was asked to find a replacement for the connector used.
+	
+	The connector used was from ERmer ZDplus backplane connector family of ERNI. Main advantage of it was that it was capable of transferring data over 20 Gbit/s which more than most of the connector in the market.
+	
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{zpack}
+	\includegraphics[width=0.9\unitlength]{zpack}
 	\caption{\label{fig:zpack}TE Connectivity Z-Pack HM-Zd Plus Backplane Connectors \cite{teconnec}}
 \end{figure}
 
@@ -1015,7 +1027,11 @@ In the following subsection, I will mention critical differences between these I
 %	\caption{\label{fig:tvac-cycle}An Example Temperature Cycle }
 %\end{figure}
 
+	 
 
+	Due to its similarities in physical properties, I proposed that The Z-Pack HM-Zd Plus backplane connector family from TE Connectivity is good alternative for the used one.
+	
+	Both of the connectors can be seen at \textit{Figures~\ref{fig:zpack} and \ref{fig:ermetzd}}.\cite{ermetzd}  \cite{teconnec} 
 %\begin{figure}[H]
 %	\center
 %	\setlength{\unitlength}{\textwidth} 
@@ -1026,7 +1042,7 @@ In the following subsection, I will mention critical differences between these I
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{ermetzd2}
+	\includegraphics[width=0.9\unitlength]{ermetzd2}
 	\caption{\label{fig:ermetzd} ERNI Ermet ZDplus Backplane Connectors \cite{ermetzd} }
 \end{figure}
 
@@ -1093,12 +1109,12 @@ In the following subsection, I will mention critical differences between these I
 	
 	In the first half of my internship, I was given time to observe, learn and participate the mechanical and electrical test conducted at our division. Mainly on ASELSAN 9661 Series Radios, I mostly observed and participated on the environmental tests of the equipments produced at the Communication \& Information Technologies Vice Presidency, known as HBT. .
 	
-	In the second part of my internship, I was given time to observe the work done behind the testing, in other words process design and management. In this part of my internship, I participated on documentation and research activities for the ULAK Base station of the ASELSAN. Since the work done at this stage can be mostly considered as classified information, I will mention the basics of what I have done in this part.
+	In the second part of my internship, I have made some research for the ULAK Base station of the ASELSAN regarding its components. Since the work done at this stage can be mostly considered as classified information, I mentioned the basics of what I have done in this part.
 	
-	In this, report, I start with an introduction, that covers what was done in my summer practice. Then, I continued with a company description section in which the general description about ASELSAN is given. After that part, the work done in my summer practice is explained. Lastly, I finished the report with an conclusion part. 
+	In this, report, I started with an introduction, that covers what was done in my summer practice. Then, I continued with a company description section in which the general description about ASELSAN is given. After that part, the work done in my summer practice is explained. Lastly, I finished the report with an conclusion part. 
 		
 	
-	Finally, I recommend my summer practice company for other students who want to start their summer practice at ASELSAN. 
+	Finally, I recommend my summer practice company for other students who want to experience the professional work life at ASELSAN. 
 
 \-\vfill 
 
