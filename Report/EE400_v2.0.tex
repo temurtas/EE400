@@ -57,6 +57,20 @@
 \usepackage[final]{pdfpages}
 
 
+\usepackage{array} %allows more options in tables
+\usepackage{pgfplots,pgf,tikz} %coding plots in latex
+\usepackage{capt-of} % allows caption outside the figure environment
+\usepackage[export]{adjustbox} %more options for adjusting the images
+\usepackage{multicol,multirow,slashbox} % allows tables like table1
+%\usepackage[hyperfootnotes=false]{hyperref} % clickable references
+\usepackage{epstopdf} % useful when matlab is involved
+\usepackage{placeins} % prevents the text after figure to go above figure with \FloatBarrier 
+%\usepackage{listingsutf8,mcode} %import .m or any other code file mcode is for matlab highlighting
+
+\setcounter{secnumdepth}{6} %depth of structures in table of contents
+\setcounter{tocdepth}{6} %depth of structures in table of contents
+
+
 \newcommand\nd{\textsuperscript{nd}\xspace}
 \newcommand\rd{\textsuperscript{rd}\xspace}
 \newcommand\nth{\textsuperscript{th}\xspace} %\th is taken already
@@ -69,7 +83,8 @@
 \definecolor{mylilas}{RGB}{170,55,241}
 
 
-
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
 
 
 \lstdefinestyle{CStyle}{
@@ -568,18 +583,19 @@ Dependent upon their type, they can be designed using just resistors, they may n
 	There are many used for these RF attenuators and although these may not seem obvious initially when asking what is an attenuator, they are widely used in RF applications.
 
 
-RF attenuators are used widely within RF circuits for a variety of reasons. Fortunately these attenuators are easy to design and using surface mount technology their performance can be exceedingly good.
 
 
 \subsubsection{Electrical Configuration/Performance Tests}
 \- \indent
+	As I spent my time at laboratory, I witnessed many steps of finalized product test, environmental tests and so on. In this section, I will mention some of this test in more detail. These test were actually standardized by the TIA (Telecommunications Industry Association) in TIA/EIA 102 or more commonly known as Project 25.
 
+\- \\
 
 \paragraph{Reference Sensitivity Test}
 \- \indent
 	The Reference sensitivity is the level of receiver input signal at a specified frequency with specified modulation that will result in the standard BER (Bit Error Rate) at the receiver detector according to TIA Standart called Project 25 \cite{P25}.
 
-	To measure the reference sensitivity, test set-up at the \textit{Figure~\ref{fig:refsens}} must be established. After adjusting the input level to achieve   standard bit error rate at the output when measured at least a 250 ms time interval, the reference sensitivity will be signal level at the RF Signal Generator.
+\-\\
 
 \begin{figure}[H]
 	\center
@@ -587,6 +603,12 @@ RF attenuators are used widely within RF circuits for a variety of reasons. Fort
 	\includegraphics[width=1.0\unitlength]{refsens}
 	\caption{\label{fig:refsens}Reference Sensitivity Test System Diagram }
 \end{figure}
+
+\- \\
+
+	To measure the reference sensitivity, test set-up at the \textit{Figure~\ref{fig:refsens}} must be established. After adjusting the input level to achieve   standard bit error rate at the output when measured at least a 250 ms time interval, the reference sensitivity will be signal level at the RF Signal Generator.
+
+\- \\[1.5cm]
 
 \paragraph{Residual Audio Noise Ratio Test}
 \- \indent
@@ -610,9 +632,11 @@ $$	Residual~Audio~Noise~Ratio~(Silence)~=~20~log_{10}(\frac{V_{Ref}}{V_{S}}) 	$$
 $$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load}}) 	$$
 
 
+%\- \\[1cm]
+
 \paragraph{RF Output Power Test}
 \- \indent
-	The RF output power of a transmitter for this service is the power available at the output terminals of the transmitter when the output terminals are connected to the standard transmitter load according to Project 25 Standart\cite{P25}..
+	The RF output power of a transmitter for this service is the power available at the output terminals of the transmitter when the output terminals are connected to the standard transmitter load according to Project 25 Standart\cite{P25}.
 
 	To measure the RF output power, test set-up at the \textit{Figure~\ref{fig:rfouttest}} must be established
 	
@@ -620,38 +644,31 @@ $$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=0.75\unitlength]{rfouttest}
+	\includegraphics[width=1.0\unitlength]{rfouttest}
 	\caption{\label{fig:rfouttest}RF Output Power Test System Diagram }
 \end{figure}
 
-\paragraph{Transmitter FM Hum/Noise Ratio Test}
-\- \indent
+%\paragraph{Transmitter FM Hum/Noise Ratio Test}
+%\- \indent
 
 
-\begin{figure}[H]
-	\center
-	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{transnoise}
-	\caption{\label{fig:transnoise}Transmitter FM Hum/Noise Ratio Test System Diagram }
-\end{figure}
+%\begin{figure}[H]
+%	\center
+%	\setlength{\unitlength}{\textwidth} 
+%	\includegraphics[width=1.0\unitlength]{transnoise}
+%	\caption{\label{fig:transnoise}Transmitter FM Hum/Noise Ratio Test System Diagram }
+%\end{figure}
 
 
-\paragraph{C4FM Modulation }
-\- \indent
 
-\begin{figure}[H]
-	\center
-	\setlength{\unitlength}{\textwidth} 
-	\includegraphics[width=1.0\unitlength]{c4fmmod}
-	\caption{\label{fig:c4fmmod}C4FM Modulation Calculation System Diagram }
-\end{figure}
 
-\- \\ \- \vfill
 
 \paragraph{Electrical Audio Performance Test}
 \- \indent
+	The electrical audio performance is the degree of closeness to which the audio path of the transmitter follows a prescribed characteristic according to Project 25 Standart\cite{P25}.
 
-
+	To measure the RF output power, test set-up at the \textit{Figure~\ref{fig:elecaudio}} must be established
+	
 \begin{figure}[H]
 	\center
 	\setlength{\unitlength}{\textwidth} 
@@ -665,7 +682,7 @@ $$	Residual~Audio~Noise~Power~(Mute)~=~10~log_{10}(1000\frac{V^2_{Mute}}{R_{Load
 modulation fidelity measurement, we will need to look at the type
 of modulation that this measurement analyses.
 
-\subparagraph{C4FM Modulation}
+\subparagraph{C4FM Modulation} \-\\
 \- \indent
 	P25 uses a type of modulation called C4FM, which is an acronym for “compatible 4 level frequency modulation”\cite{fidelity}. Basically, it is a special type of 4FSK modulation developed for the TIA/EIA-102 standard. P25 uses this type of modulation to transmit digital information in the form of digital “1’s” and “0’s”. 4FSK uses four different frequency “states” or “deviation points” to indicate a “symbol”. This symbol then equates to 2 bits of data as one of the four frequency shifts. The frequency shifts that correspond to each 2 bits of data are shown in \textit{Table~\ref{tab:modfide}}.
 	
@@ -680,7 +697,7 @@ of modulation that this measurement analyses.
        11 & -3 & -1.8 kHz  
       
   \end{tabular}
-  \caption{modfide}
+  \caption{P25 C4FM Frequency Deviation States}
   \label{tab:modfide}
 \end{table}
 
@@ -688,12 +705,13 @@ of modulation that this measurement analyses.
 		
 	As part of modulation fidelity, it is desired to measure the deviation of each of the symbols that the radio under test generates and compare them with the ideal four deviation points indicated in \textit{Table~\ref{tab:modfide}}. This measurement will actually result in producing three important values that together will be indicators of the modulation fidelity of the radio under test.
 
+\- \\ \- \\
 
-\subparagraph{Frequency Error}
+\subparagraph{Frequency Error} \- \\
 \- \indent
 	The first value that we can calculate from the measured deviation of each of the symbols is the frequency error. Frequency error in this measurement refers to RF carrier frequency error.
 		
-	To understand this, think about the relationship between the four frequency deviations used in C4FM and RF carrier frequency error. A carrier frequency error would tend to shift all four of the deviations by the same amount. A positive frequency error would move all four of the deviation points in the positive direction. Let’s use a real world scenario for our example. In Chart 2.0 below, a 100 Hz frequency error might give the following results:
+	To understand, the relationship between the four frequency deviations used in C4FM and RF carrier frequency error can be thought. A carrier frequency error would tend to shift all four of the deviations by the same amount. A positive frequency error would move all four of the deviation points in the positive direction. For convince, a real world scenario is used to illustrate the situation. In \textit{Table~\ref{tab:modfide2}} below, a 100 Hz frequency error might give the following results:
 
 
 \begin{table}[H]
@@ -701,27 +719,71 @@ of modulation that this measurement analyses.
  
     \begin{tabular}{c|c|c}
        $$Bits$$ & $$Symbols$$ & $$C4FM Deviation$$ \\ \hline
-       00 & +3 & +0.72 kHz  \\ \hline
+       00 & +3 & +0.7 kHz  \\ \hline
        01 & +1 & +1.9 kHz  \\ \hline
-       10 & -1 & -0.54 kHz  \\ \hline
-       11 & -3 & -1.68 kHz  
+       10 & -1 & -0.64 kHz  \\ \hline
+       11 & -3 & -1.9 kHz  
       
   \end{tabular}
-  \caption{modfide2}
+  \caption{Example of a Measured P25 Frequency Deviation
+States}
   \label{tab:modfide2}
 \end{table}
 
-	The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points.
+\- \\
+
+
+
+
+	In ideal world, the RF carrier error would shift evey symbol by the same frequency amount but in real world, there are other effects that may affect symbol deviation.
 	
-	The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
+	To find the frequency error, the average frequency deviation for each of the four symbols should be found, and then the average of these four deviation points should be calculated. From the \textit{Table~\ref{tab:modfide2}}, the average would be:
 	
-	Let $s_K$ represents the C4FM deviation of the transmitted symbols, and $z_K$ represents the detected signals at $t_K$ sampling instants.
+	$$	\frac{0.7+1.9-0.64-1.9}{4}~=~0.015~kHz~=~15~Hz	$$
+
+
+\subparagraph{Deviation} \- \\
+\- \indent
+	To calculate the deviation, the four average values calculated for each symbol that were also used to find frequency errors are used. By the help of these numbers, \textit{Table~\ref{tab:deviat}} is constructed.
+
+\begin{table}[H]
+  \centering
+ 
+    \begin{tabular}{c|c|c|c}
+       $$Info Bits$$ & $$Ideal Deviations$$ & $$\specialcell{ Average deviation \\ after subtracting out the  \\ frequency error }$$  & $$ Deviation ratio $$ \\ \hline
+       00 &  +0.6 kHz & +0.72 kHz & $\frac{0.7}{0.6}~=~1.16$ \\ \hline
+       01 &  +1.8 kHz & +1.9 kHz  & $\frac{1.9}{1.8}~=~1.05$ \\ \hline
+       10 &  -0.6 kHz & -0.64 kHz & $\frac{0.64}{0.6}~=~1.06$ \\ \hline
+       11 &  -1.8 kHz & -1.9 kHz & $\frac{1.9}{1.8}~=~1.06$ 
+      
+  \end{tabular}
+  \caption{P25 C4FM Frequency Deviation Ratio}
+  \label{tab:deviat}
+\end{table}
+
+	From the \textit{Table~\ref{tab:deviat}}, the deviation for this example can be calculated a follow:
+	
+	$$	Avergae~Deviation~Ratio~= ~\frac{1.16+1.05+1.06+1.06}{4}~=~1.085	$$
+	
+
+
+%	The fidelity is determined by from observations of the signal at the output of an integrate and dump filter, that is preceded by an FM demodulator. The filtered FM modulation trajectories for C4FM and CQPSK are different at all points in time except at the symbol decision points. The modulation fidelity is measured by determining the rms difference between the actual signal and the ideal C4FM deviation for the transmitted symbols as information.
+	
+	
+	
+	For general calculations, let $s_K$ represents the C4FM deviation of the transmitted symbols, and $z_K$ represents the detected signals at $t_K$ sampling instants.
 	
 	The transmitter can be modelled as
 	
 	$$ z_K~=~C_O+C_L*(s_K~+~e_K) $$
 	
-	where $C_O$ is a constant representing carrier frequency offset and the $C_L$ is another constant called deviation errors that is resulting from gain errors in the transmitter's modulator baseband signal processing. And $e_K$ is called residual deviation error.
+	where $C_O$ is a constant representing carrier frequency offset, the $C_L$ is another constant called deviation errors that is resulting from gain errors in the transmitter's modulator baseband signal processing. And $e_K$ is called residual deviation error.
+	
+	The sum-square deviation error is then:
+	
+$$	\sum_{k=MIN}^{k=MAX} {|e_K|}^2 = \sum_{k=MIN}^{k=MAX} {|\frac{z_K - C_O}{C_L}-s_K|}^2	$$
+	
+	$C_0$ \& $C_L$ should be chosen to minimize the sum-suquare deviation.
 	
 	
 \begin{figure}[H]
@@ -732,16 +794,19 @@ of modulation that this measurement analyses.
 \end{figure}
 
 
+	For further test, test set-up at \textit{Figure~\ref{fig:modfide}} can be used. 
 
-\- \\[1.5cm] \- \vfill
 
 
-%\subsection{Tests on ULAK 4.5G Base Station  }
+
+
+\subsection{Tests on ULAK 4.5G Base Station  }
+\- \indent
 	Besides 9661 Series Radios, multiple radio hand-sets and the 4.5G Base Station were tested at Environmental Test Laboratory. Similar electrical tests applied to the 9661 radio series were partially applied to the these base stations. Since I was not able spent enough time on the tests of the base station, I will quickly introduce the base station itself and pass the next section. 
 
-\subsubsection{ULAK 4.5G Macrocell Base Station}
+\paragraph{4.5G Macrocell Base Station}
 \- \indent
-	Based on Release 10 and Release 11 standards published by 3GPP, ULAK Macrocell Base Station is designed to support both Release 12 and Release 13 standards with flexible architecture that is open to software development without any hardware changes and is designed to work on different frequency bands for use in Commercial or Public Safety networks\cite{ulak}.  
+	Based on Release 10 and Release 11 standards published by 3GPP, ULAK Macrocell Base Station is designed to support both Release 12 and Release 13 standards and is designed to work on different frequency bands for use in Commercial or Public Safety networks\cite{ulak} by ASELSAN A.Ş. and ULAK Haberleşme A.Ş which is owned by SSTEK Defense Industry Technologies and ASELSAN.  The base station can be seen at \textit{Figure~\ref{fig:ulak}}.
 
 \begin{figure}[H]
 	\center
@@ -750,15 +815,8 @@ of modulation that this measurement analyses.
 	\caption{\label{fig:ulak}ULAK 4.5G Base Station\cite{ulak} }
 \end{figure}	
 	
-	To enrich the product portfolio; the following studies are currently carried out:
-
-	Integration of LTE-A to Narrowband Communication Systems,
-LTE-Advanced Mobile Terminal Safety Software  
-With the development of 4.5G Communication Systems, it is aimed to meet the need of fast, secure and continuous communication of both mobile operators and public institutions\cite{ulak}.
-
-
-\vfill
-
+	
+\-\\
 
 \subsection{Outer Space Simulations \& Tests using TVAC  }
 \- \indent
@@ -834,25 +892,91 @@ In the following subsection, I will mention critical differences between these I
 
 \paragraph{NEC UPC2746TB vs NEC UPC 2712TB}
 \- \indent
-	Although both ICs are Silcom MMIC Wideband Amplifiers manufactured using same technologies, UPC2712TB is designed for use as buffer amplifiers in DBS tuners\cite{2712} whereas the UPC2746TB is designed for use as buffer amplifiers in mobile communication applications such as Celular ,PCS, Cordless handsets and WLAN transceivers\cite{2746}. However, since both ICs are housed in a 6-pin super minimold (SOT-363) package, it is easy to make mistakes using one instead of another.
+	Although both ICs are Silcom MMIC Wideband Amplifiers manufactured using same technologies, UPC2712TB is designed for use as buffer amplifiers in DBS tuners\cite{2712} whereas the UPC2746TB is designed for use as buffer amplifiers in mobile communication applications such as Celular ,PCS, Cordless handsets and WLAN transceivers\cite{2746}. However, since both ICs are housed in a 6-pin super minimold (SOT-363) package and the pins are functioning exactly the same, it is rather easy making mistakes using one instead of another.
+	
+	
+%\begin{table}[H]
+%  \centering
+% 
+%    \begin{tabular}{c|c|c}
+%       \backslashbox{$A$}{$a$} & $$B$$ & $$C$$ \\ \hline
+%       \multirow{2}{*}{1} & 2 & 3  \\ \cline{2-3}
+%        & 3 & 4  \\ \hline
+%       3 & \multicolumn{2}{c}{4}  \\ \hline
+%       4 & 5 & 6  
+%      
+%  \end{tabular}
+%  \caption{table}
+%  \label{tab:table}
+%\end{table}
 
+\begin{table}[H]
+  \centering
+ 
+    \begin{tabular}{c|c|c}
+       $$Pin~No$$ & $$Pin~Name$$ & $$Description$$ \\ \hline
+       1 & Input  & Signal input pin  \\ \hline
+       4 & Output & Signal output pin  \\ \hline
+       6 & $V_{CC}$ & Power supply pin  \\ \hline
+       2\&3\&5 & GND & Ground pin
+ 	\end{tabular}
+  \caption{Pin Connections for UPC2746TB \& UPC2712TB}
+  \label{tab:pins}
+\end{table}
+
+	To examine differences between 2746 \& 2712 , internal equivalent circuits for the respected ICs can be seen from the \textit{Figures~\ref{fig:2746cct}~and~\ref{fig:2712cct}}. As mentioned earlier, in both devices, pins are used for similar functions and these functions can be seen at \textit{Figures~\ref{tab:pins}}.  
+	
+
+	
 \begin{figure}[H]
 	\setlength{\unitlength}{\textwidth} 
 	\centering
 	\begin{subfigure}{.5\textwidth}
   		\centering
   		\includegraphics[width=0.3\unitlength]{2746_cct}
-  		\caption{\label{fig:2746top}Equivalent Circuit of the 2746TB}
+  		\caption{\label{fig:2746cct}Equivalent Circuit of the 2746TB}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
   		\centering
 		\includegraphics[width=0.3\unitlength]{2712_cct}
-  		\caption{\label{fig:2712top}Equivalent Circuit of the 2712TB}
+  		\caption{\label{fig:2712cct}Equivalent Circuit of the 2712TB}
 	\end{subfigure}
-\caption{\label{fig:274612top} Internal Equivalent Circuit of the UPC2746TB \& UPC2712TB ICs   }
+\caption{\label{fig:274612cct} Absolute Maximum Ratings for the UPC2746TB \& UPC2712TB ICs   }
 \end{figure}	
 
 
+	Although, in many aspects these amplifiers seems like an alternative to each other, main differences occurs in supply parameters and performance characteristics of these ICs.
+	
+\begin{table}[H]
+  \centering
+ 
+    \begin{tabular}{c|c|c|c|c}
+       $$Symbols$$ & $$Parameters$$ & $$Units$$  & $$UPC2746$$  & $$UPC2712$$ \\ \hline
+       $V_{CC}$ & Supply Voltage & V & 6 &  4 \\ \hline
+       $P_{IN}$ & Input Power & dBm &  +10 &  0 \\ \hline
+       $P_T$ & Total Power Dissipation & mW & 200 & 200 \\ \hline
+       $T_{OP}$ & Operating Temperature & $^{\circ}C$ & -45 to +85  & -45 to +85 \\ \hline
+       $T_{STG}$ & Storage Temperature &  $^{\circ}C$ & -55 to +150 & -55 to +150 
+ 	\end{tabular}
+  \caption{Absolute Maximum Ratings for UPC2746TB \& UPC2712TB}
+  \label{tab:absmax}
+\end{table}
+	
+	When the \textit{Tables~\ref{tab:absmax} and \ref{tab:reccomb} } are examined, it can be clearly seen that voltage supplie values of these components differ each other dramatically. For instance, as the UPC2712 operates perfectly at 5V, the UPC2746 can not even operate since its absolute maximum voltage supply value is 4V as can be seen from the \textit{Table~\ref{tab:absmax}}.  	
+	
+	
+\begin{table}[H]
+  \centering	
+	\begin{tabular}{c|c|c|c|c|c|c}
+       $Symbol$ & $$Parameter$$ & $$Units$$ & $$IC$$ & $$MIN$$ & $$TYP$$ & $$MAX$$ \\ \hline
+       \multirow{2}{*}{$V_{CC}$} & \multirow{2}{*}{Supply Voltage} & \multirow{2}{*}{V} & UPC2746 & 2.7 & 3.0 & 3.3  
+       \\ \cline{4-7}  & & & UPC2712 & 4.5 & 5.0 &  5.5  \\ \hline
+       \multirow{2}{*}{$T_{OP}$} & \multirow{2}{*}{Operating Temperature} & \multirow{2}{*}{$^{\circ}C$} & UPC2746 & -40 & +25 & +85  
+       \\ \cline{4-7}  & & & UPC2712 & -40 & +25 & +85 
+       \end{tabular}
+       \caption{Recommended Operating Conditions for UPC2746TB \& UPC2712TB}
+  \label{tab:reccomb}
+\end{table}
 
 
 \begin{figure}[H]
@@ -860,12 +984,12 @@ In the following subsection, I will mention critical differences between these I
 	\centering
 	\begin{subfigure}{.5\textwidth}
   		\centering
-  		\includegraphics[width=0.3\unitlength]{2746_perf}
+  		\includegraphics[width=0.45\unitlength]{2746_perf}
   		\caption{\label{fig:2746perf}Performance Curve for the 2746TB }
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
   		\centering
-		\includegraphics[width=0.3\unitlength]{2712_perf}
+		\includegraphics[width=0.45\unitlength]{2712_perf}
   		\caption{\label{fig:2712perf}Top View of the UPC2712TB IC}
 	\end{subfigure}
 \caption{\label{fig:274612perf} Typical Performance Curves for the UPC2746TB \& UPC2712TB ICs   }
@@ -880,7 +1004,7 @@ In the following subsection, I will mention critical differences between these I
 	\center
 	\setlength{\unitlength}{\textwidth} 
 	\includegraphics[width=1.0\unitlength]{zpack}
-	\caption{\label{fig:tvac-cycle}TE Connectivity Z-Pack HM-Zd Plus Backplane Connectors \cite{teconnec}}
+	\caption{\label{fig:zpack}TE Connectivity Z-Pack HM-Zd Plus Backplane Connectors \cite{teconnec}}
 \end{figure}
 
 
