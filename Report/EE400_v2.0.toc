@@ -17,30 +17,24 @@
 \contentsline {subsection}{\numberline {3.2}Mandatory Educations}{11}
 \contentsline {subsubsection}{\numberline {3.2.1}Electrostatic Discharge (ESD) Education }{11}
 \contentsline {subsubsection}{\numberline {3.2.2}Occupational Safety and Health (OSH) Education}{12}
-\contentsline {section}{\numberline {4}Work Done at SP Company}{12}
-\contentsline {subsection}{\numberline {4.1}Electrical \& Mechanical Tests at the Environmental Tests Laboratory }{13}
-\contentsline {subsubsection}{\numberline {4.1.1}ASELSAN 9661 Radio Family}{13}
-\contentsline {subsubsection}{\numberline {4.1.2}Test Devices}{14}
-\contentsline {paragraph}{\numberline {4.1.2.1}Spectrum Analyzer}{14}
-\contentsline {paragraph}{\numberline {4.1.2.2}Attenuators}{15}
-\contentsline {subsubsection}{\numberline {4.1.3}Electrical Configuration/Performance Tests}{16}
-\contentsline {paragraph}{\numberline {4.1.3.1}Reference Sensitivity Test}{16}
-\contentsline {paragraph}{\numberline {4.1.3.2}Residual Audio Noise Ratio Test}{17}
-\contentsline {paragraph}{\numberline {4.1.3.3}RF Output Power Test}{17}
-\contentsline {paragraph}{\numberline {4.1.3.4}Electrical Audio Performance Test}{18}
-\contentsline {paragraph}{\numberline {4.1.3.5}Modulation Fidelity Test}{19}
-\contentsline {subparagraph}{\numberline {4.1.3.5.1}C4FM Modulation}{19}
-\contentsline {subparagraph}{\numberline {4.1.3.5.2}Frequency Error}{20}
-\contentsline {subparagraph}{\numberline {4.1.3.5.3}Deviation}{20}
-\contentsline {subsubsection}{\numberline {4.1.4}Tests on ULAK 4.5G Base Station }{22}
-\contentsline {paragraph}{\numberline {4.1.4.1}4.5G Macrocell Base Station}{22}
-\contentsline {subsection}{\numberline {4.2}Outer Space Simulations \& Tests using TVAC }{23}
-\contentsline {subsubsection}{\numberline {4.2.1}Thermal Vacuum Chamber (TVAC) }{23}
-\contentsline {subsubsection}{\numberline {4.2.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{23}
-\contentsline {subsection}{\numberline {4.3}Research on Components of ULAK 4.5G Base Station }{25}
-\contentsline {subsubsection}{\numberline {4.3.1}Misidentified Components}{26}
-\contentsline {paragraph}{\numberline {4.3.1.1}NEC UPC2746TB vs NEC UPC 2712TB}{27}
-\contentsline {subsubsection}{\numberline {4.3.2}Alternate Components}{29}
-\contentsline {paragraph}{\numberline {4.3.2.1}Change of Backplane Connector}{29}
-\contentsline {section}{\numberline {5}Conclusion}{31}
-\contentsline {section}{\numberline {6}References}{32}
+\contentsline {section}{\numberline {4}Electrical \& Mechanical Tests at the Environmental Tests Laboratory }{13}
+\contentsline {subsection}{\numberline {4.1}ASELSAN 9661 Radio Family}{13}
+\contentsline {subsection}{\numberline {4.2}Test Devices}{14}
+\contentsline {subsubsection}{\numberline {4.2.1}Spectrum Analyzer}{14}
+\contentsline {subsubsection}{\numberline {4.2.2}Attenuators}{15}
+\contentsline {subsection}{\numberline {4.3}Electrical Configuration/Performance Tests}{16}
+\contentsline {subsubsection}{\numberline {4.3.1}Reference Sensitivity Test}{16}
+\contentsline {subsubsection}{\numberline {4.3.2}Residual Audio Noise Ratio Test}{16}
+\contentsline {subsubsection}{\numberline {4.3.3}RF Output Power Test}{17}
+\contentsline {subsubsection}{\numberline {4.3.4}Electrical Audio Performance Test}{18}
+\contentsline {subsubsection}{\numberline {4.3.5}Modulation Fidelity Test}{19}
+\contentsline {subsection}{\numberline {4.4}Tests on ULAK 4.5G Base Station }{22}
+\contentsline {subsubsection}{\numberline {4.4.1}4.5G Macrocell Base Station}{22}
+\contentsline {section}{\numberline {5}Outer Space Simulations \& Tests using TVAC }{23}
+\contentsline {subsection}{\numberline {5.1}Thermal Vacuum Chamber (TVAC) }{23}
+\contentsline {subsection}{\numberline {5.2}Tests \& Simulations Using Thermal Vacuum Chamber (TVAC) }{24}
+\contentsline {section}{\numberline {6}Research on Components of ULAK 4.5G Base Station }{26}
+\contentsline {subsection}{\numberline {6.1}Misidentified Components}{26}
+\contentsline {subsection}{\numberline {6.2}Alternate Components}{30}
+\contentsline {section}{\numberline {7}Conclusion}{32}
+\contentsline {section}{\numberline {8}References}{34}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  15 OCT 2018 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  3 JAN 2019 21:46
 entering extended mode
 **./EE400_v2.0.tex
 (EE400_v2.0.tex
@@ -956,14 +956,14 @@ LaTeX Font Info:    ... okay on input line 170.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(89.17082pt, 419.16621pt, 89.17084pt)
-* v-part:(T,H,B)=(118.31775pt, 549.25243pt, 177.47667pt)
+* v-part:(T,H,B)=(109.64569pt, 570.93256pt, 164.4686pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=419.16621pt
-* \textheight=549.25243pt
+* \textheight=570.93256pt
 * \oddsidemargin=16.90083pt
 * \evensidemargin=16.90083pt
-* \topmargin=9.04776pt
+* \topmargin=0.3757pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1057,65 +1057,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-(EE400_v2.0.toc [1] [2]
-Overfull \hbox (10.53629pt too wide) in paragraph at lines 39--39
- [][] []\OT1/cmr/m/n/12 Tests & Sim-u-la-tions Us-ing Ther-mal Vac-uum Cham-ber
- (TVAC) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
- [][]  
- []
-
-)
+(EE400_v2.0.toc [1] [2])
 \tf@toc=\write4
 \openout4 = `EE400_v2.0.toc'.
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 293--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--302
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 317.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 315.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 317.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 315.
  [5]
 <Aselsan1_2.jpg, id=31, 1583.9175pt x 1103.62312pt>
 File: Aselsan1_2.jpg Graphic file (type jpg)
  <use Aselsan1_2.jpg>
-Package pdftex.def Info: Aselsan1_2.jpg used on input line 340.
+Package pdftex.def Info: Aselsan1_2.jpg used on input line 338.
 (pdftex.def)             Requested size: 293.41507pt x 204.43652pt.
 
 <calisan.png, id=32, 1056.94875pt x 527.72156pt>
 File: calisan.png Graphic file (type png)
  <use calisan.png>
-Package pdftex.def Info: calisan.png used on input line 358.
+Package pdftex.def Info: calisan.png used on input line 356.
 (pdftex.def)             Requested size: 201.19798pt x 100.45334pt.
 
 <degree.png, id=33, 1054.6903pt x 527.72156pt>
 File: degree.png Graphic file (type png)
  <use degree.png>
-Package pdftex.def Info: degree.png used on input line 363.
+Package pdftex.def Info: degree.png used on input line 361.
 (pdftex.def)             Requested size: 201.19798pt x 100.67075pt.
  [6 <./Aselsan1_2.jpg>] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-3
 2.def"
@@ -1125,268 +1134,414 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 File: organizasyon4.png Graphic file (type png)
 
 <use organizasyon4.png>
-Package pdftex.def Info: organizasyon4.png used on input line 464.
+Package pdftex.def Info: organizasyon4.png used on input line 462.
 (pdftex.def)             Requested size: 377.24702pt x 464.80109pt.
  [9] [10 <./organizasyon4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-
- []
-
-[12] <radio_type.png, id=63, 1125.45468pt x 285.31593pt>
+[11] [12] <radio_type.png, id=63, 1125.45468pt x 285.31593pt>
 File: radio_type.png Graphic file (type png)
- <use radio_type.png>
-Package pdftex.def Info: radio_type.png used on input line 524.
-(pdftex.def)             Requested size: 419.16621pt x 106.26181pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+<use radio_type.png>
+Package pdftex.def Info: radio_type.png used on input line 519.
+(pdftex.def)             Requested size: 398.20662pt x 100.95045pt.
+ [13 <./radio_type.png>]
+<components.png, id=68, 998.22937pt x 663.98062pt>
+File: components.png Graphic file (type png)
+ <use components.png>
+Package pdftex.def Info: components.png used on input line 547.
+(pdftex.def)             Requested size: 305.98953pt x 203.532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
-[13 <./radio_type.png>] <components.png, id=68, 998.22937pt x 663.98062pt>
-File: components.png Graphic file (type png)
 
-<use components.png>
-Package pdftex.def Info: components.png used on input line 554.
-(pdftex.def)             Requested size: 314.37465pt x 209.10434pt.
- [14 <./components.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+
+ []
+
+[14 <./components.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 562--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
+
+ []
+
 <attn.png, id=72, 268.50313pt x 187.19937pt>
 File: attn.png Graphic file (type png)
  <use attn.png>
-Package pdftex.def Info: attn.png used on input line 579.
+Package pdftex.def Info: attn.png used on input line 572.
 (pdftex.def)             Requested size: 209.5831pt x 146.1206pt.
- [15 <./attn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--583
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+[15 <./attn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
 
  []
 
 <refsens.png, id=76, 405.76593pt x 92.59593pt>
 File: refsens.png Graphic file (type png)
  <use refsens.png>
-Package pdftex.def Info: refsens.png used on input line 605.
+Package pdftex.def Info: refsens.png used on input line 591.
 (pdftex.def)             Requested size: 419.16621pt x 95.65602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
-[16 <./refsens.png>] <resaudtest.png, id=81, 684.30656pt x 339.51843pt>
+<resaudtest.png, id=77, 684.30656pt x 339.51843pt>
 File: resaudtest.png Graphic file (type png)
-
-<use resaudtest.png>
-Package pdftex.def Info: resaudtest.png used on input line 622.
+ <use resaudtest.png>
+Package pdftex.def Info: resaudtest.png used on input line 606.
 (pdftex.def)             Requested size: 314.37465pt x 155.97832pt.
- [17 <./resaudtest.png>]
-<rfouttest.png, id=88, 3800.1975pt x 638.385pt>
+
+[16 <./refsens.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+
+ []
+
+<rfouttest.png, id=82, 3800.1975pt x 638.385pt>
 File: rfouttest.png Graphic file (type png)
  <use rfouttest.png>
-Package pdftex.def Info: rfouttest.png used on input line 649.
+Package pdftex.def Info: rfouttest.png used on input line 633.
 (pdftex.def)             Requested size: 419.16621pt x 70.40764pt.
+ [17 <./resaudtest.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+
+ []
 
 <elecaudio.png, id=89, 401.24907pt x 210.7875pt>
 File: elecaudio.png Graphic file (type png)
  <use elecaudio.png>
-Package pdftex.def Info: elecaudio.png used on input line 677.
+Package pdftex.def Info: elecaudio.png used on input line 661.
 (pdftex.def)             Requested size: 419.16621pt x 220.21411pt.
  [18 <./rfouttest.png> <./elecaudio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
+Underfull \hbox (badness 10000) in paragraph at lines 668--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
 
  []
 
 [20] <modfide.png, id=102, 402.00188pt x 57.96657pt>
 File: modfide.png Graphic file (type png)
  <use modfide.png>
-Package pdftex.def Info: modfide.png used on input line 794.
+Package pdftex.def Info: modfide.png used on input line 780.
 (pdftex.def)             Requested size: 419.16621pt x 60.44124pt.
  [21 <./modfide.png>] <ulak.png, id=108, 1151.80313pt x 608.2725pt>
 File: ulak.png Graphic file (type png)
  <use ulak.png>
-Package pdftex.def Info: ulak.png used on input line 816.
-(pdftex.def)             Requested size: 419.16621pt x 221.36327pt.
+Package pdftex.def Info: ulak.png used on input line 802.
+(pdftex.def)             Requested size: 335.33424pt x 177.09062pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+[22 <./ulak.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 814--816
 
  []
 
-[22 <./ulak.png>] <tvac.jpg, id=113, 4946.48pt x 3292.3pt>
+<tvac.jpg, id=113, 4946.48pt x 3292.3pt>
 File: tvac.jpg Graphic file (type jpg)
  <use tvac.jpg>
-Package pdftex.def Info: tvac.jpg used on input line 835.
+Package pdftex.def Info: tvac.jpg used on input line 821.
 (pdftex.def)             Requested size: 419.16621pt x 278.96266pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] <tvac-cycle.png, id=118, 1385.175pt x 555.57562pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 832--834
+
+ []
+
+<tvac-cycle.png, id=117, 1385.175pt x 555.57562pt>
 File: tvac-cycle.png Graphic file (type png)
  <use tvac-cycle.png>
-Package pdftex.def Info: tvac-cycle.png used on input line 853.
+Package pdftex.def Info: tvac-cycle.png used on input line 840.
 (pdftex.def)             Requested size: 419.16621pt x 168.1236pt.
 
-[24 <./tvac.jpg>] [25 <./tvac-cycle.png>]
+[24 <./tvac.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
+
+ []
+
+[25 <./tvac-cycle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 860--862
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--865
+
+ []
+
 <2746_ust.png, id=126, 254.45062pt x 287.57437pt>
 File: 2746_ust.png Graphic file (type png)
  <use 2746_ust.png>
-Package pdftex.def Info: 2746_ust.png used on input line 880.
+Package pdftex.def Info: 2746_ust.png used on input line 874.
 (pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
 
 <2712_ust.png, id=127, 254.45062pt x 287.57437pt>
 File: 2712_ust.png Graphic file (type png)
  <use 2712_ust.png>
-Package pdftex.def Info: 2712_ust.png used on input line 885.
+Package pdftex.def Info: 2712_ust.png used on input line 879.
 (pdftex.def)             Requested size: 100.60219pt x 113.69814pt.
+ [26 <./2746_ust.png> <./2712_ust.png>] <2746_cct.png, id=133, 274.77657pt x 36
+8.87813pt>
+File: 2746_cct.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+<use 2746_cct.png>
+Package pdftex.def Info: 2746_cct.png used on input line 934.
+(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
+ <2712_cct.png, id=134, 274.77657pt x 368.87813pt>
+File: 2712_cct.png Graphic file (type png)
+
+<use 2712_cct.png>
+Package pdftex.def Info: 2712_cct.png used on input line 939.
+(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
-[26 <./2746_ust.png> <./2712_ust.png>]
-<2746_cct.png, id=133, 274.77657pt x 368.87813pt>
-File: 2746_cct.png Graphic file (type png)
- <use 2746_cct.png>
-Package pdftex.def Info: 2746_cct.png used on input line 938.
-(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
 
-<2712_cct.png, id=134, 274.77657pt x 368.87813pt>
-File: 2712_cct.png Graphic file (type png)
- <use 2712_cct.png>
-Package pdftex.def Info: 2712_cct.png used on input line 943.
-(pdftex.def)             Requested size: 125.75113pt x 168.81355pt.
- [27 <./2746_cct.png> <./2712_cct.png>] <2746_perf.png, id=140, 353.82187pt x 3
-61.35pt>
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+[28 <./2746_cct.png> <./2712_cct.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+
+ []
+
+<2746_perf.png, id=143, 353.82187pt x 361.35pt>
 File: 2746_perf.png Graphic file (type png)
-
-<use 2746_perf.png>
-Package pdftex.def Info: 2746_perf.png used on input line 993.
+ <use 2746_perf.png>
+Package pdftex.def Info: 2746_perf.png used on input line 990.
 (pdftex.def)             Requested size: 188.6235pt x 192.63939pt.
- <2712_perf.png, id=141, 353.82187pt x 361.35pt>
+
+<2712_perf.png, id=144, 353.82187pt x 361.35pt>
 File: 2712_perf.png Graphic file (type png)
-
-<use 2712_perf.png>
-Package pdftex.def Info: 2712_perf.png used on input line 998.
+ <use 2712_perf.png>
+Package pdftex.def Info: 2712_perf.png used on input line 995.
 (pdftex.def)             Requested size: 188.6235pt x 192.63939pt.
- [28] <zpack.png, id=145, 929.72343pt x 403.5075pt>
-File: zpack.png Graphic file (type png)
-
-<use zpack.png>
-Package pdftex.def Info: zpack.png used on input line 1020.
-(pdftex.def)             Requested size: 377.24702pt x 163.7275pt.
  [29 <./2746_perf.png> <./2712_perf.png>]
-<ermetzd2.png, id=151, 694.84593pt x 358.33875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+<zpack.png, id=150, 929.72343pt x 403.5075pt>
+File: zpack.png Graphic file (type png)
+ <use zpack.png>
+Package pdftex.def Info: zpack.png used on input line 1017.
+(pdftex.def)             Requested size: 377.24702pt x 163.7275pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+
+ []
+
+[30 <./zpack.png>] <ermetzd2.png, id=156, 694.84593pt x 358.33875pt>
 File: ermetzd2.png Graphic file (type png)
- <use ermetzd2.png>
-Package pdftex.def Info: ermetzd2.png used on input line 1047.
+
+<use ermetzd2.png>
+Package pdftex.def Info: ermetzd2.png used on input line 1039.
 (pdftex.def)             Requested size: 377.24702pt x 194.54985pt.
- [30 <./zpack.png> <./ermetzd2.png>]
-Underfull \hbox (badness 2426) in paragraph at lines 1149--1151
+ [31 <./ermetzd2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+
+ []
+
+[33]
+Underfull \hbox (badness 2426) in paragraph at lines 1153--1155
 []\OT1/cmr/m/n/12 Jenner, L. (2017, May 31), NASA's Apollo-Era Test Cham-ber No
 w
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1149--1151
+Underfull \hbox (badness 1371) in paragraph at lines 1153--1155
 \OT1/cmr/m/n/12 James Webb Space Tele-scope Ready, Re-trieved Au-gust 24, 2018,
  from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1155
 \OT1/cmr/m/n/12 https://www.nasa.gov/feature/goddard/2017/nasas-apollo-era-test
 -chamber-
  []
 
-[31]
-Underfull \hbox (badness 2351) in paragraph at lines 1155--1157
+
+Underfull \hbox (badness 2351) in paragraph at lines 1159--1161
 []\OT1/cmr/m/n/12 Project 25, (2018, Septem-ber 20), Re-trieved Oc-to-ber 2, 20
 18, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1164
 []\OT1/cmr/m/n/12 ASELSAN About Us, (n.d.), Re-trieved July 27, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1161--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1167
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/cpb1/Brochures/96
 61[]HF/9661
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1166
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
 []\OT1/cmr/m/n/12 ULAK Base Sta-tion, (n.d.), Re-trieved Au-gust 4, 2018, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1166
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
 \OT1/cmr/m/n/12 https://www.aselsan.com.tr/en-us/capabilities/public-safety-com
 munication-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1166
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
 \OT1/cmr/m/n/12 systems/mobile-communication-technologies-ulak-4-5g-5g/ulak-com
 mercial-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1174
 []\OT1/cmr/m/n/12 Rohde-Schwarz Spec-trum Anal-yser, (n.d.), Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1174
 \OT1/cmr/m/n/12 trieved Au-gust 4, 2018, from https://cdn.rohde-
  []
 
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
+
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
 []\OT1/cmr/m/n/12 Land Mo-bile Ra-dio Transceiver Per-for-mance Rec-om-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
 \OT1/cmr/m/n/12 da-tions , (2010,Jan-uary), Re-trieved Au-gust 4, 2018, from
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
 []\OT1/cmr/m/n/12 ERNI Er-met ZD-plus Back-plane Con-nec-tors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
 \OT1/cmr/m/n/12 , (n.d.) , Re-trieved Au-gust 27, 2018, from
  []
 
-[33] (EE400_v2.0.aux) ) 
+[35] (EE400_v2.0.aux) ) 
 Here is how much of TeX's memory you used:
  30189 strings out of 493333
  698600 string characters out of 3136576
- 886416 words of memory out of 3000000
+ 885415 words of memory out of 3000000
  33114 multiletter control sequences out of 15000+200000
  12306 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,96p,1134b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,96p,973b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -1398,9 +1553,9 @@ cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE400_v2.0.pdf (34 pages, 6609505 bytes).
+Output written on EE400_v2.0.pdf (36 pages, 6599824 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
